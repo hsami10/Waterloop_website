@@ -1,6 +1,6 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var App = require('./components/App');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import NavBar from './components/navbar.js';
 
 class App extends React.Component {
     constructor() {
@@ -21,7 +21,7 @@ class App extends React.Component {
             return (
                 <div class="container-fluid">
                     <div class="row">
-                        <NavBar />
+                        <NavBar onClick={this.handlePageChange.bind(this)}/>
                     </div>
                 </div>
             );
