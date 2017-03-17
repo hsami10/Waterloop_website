@@ -8,7 +8,7 @@ export default class NavBar extends React.Component {
     render() {
         return (
             <Navbar inverse collapseOnSelect>
-                <Navbar.Header>
+                <Navbar.Header center>
                     <Navbar.Brand>
                         <a href="#">WATERLOOP</a>
                     </Navbar.Brand>
@@ -20,6 +20,7 @@ export default class NavBar extends React.Component {
                         <NavDropdown eventKey={3} title="Flock" id="basic-nav-dropdown">
                             <MenuItem eventKey={3.1}>Goose I</MenuItem>
                             <MenuItem eventKey={3.2}>Goose II</MenuItem>
+                            <MenuItem divider></MenuItem>
                             <MenuItem eventKey={3.3}>Goose X</MenuItem>
                         </NavDropdown>
                     </Nav>
