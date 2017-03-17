@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NavBar from './components/navbar.js';
+import NavBar from './components/navbar.jsx';
+
+//BOOTSTRAP
+import {Button, ButtonToolbar} from 'react-bootstrap';
+
 
 class App extends React.Component {
     constructor() {
         super();
 
         this.state = {
-            page: 'home-page'
+            page: 'sponsors-page'
         } 
     }
 
@@ -28,9 +32,7 @@ class App extends React.Component {
         } else if (state.page === 'sponsors-page') {
             return (
                 <div class="container-fluid">
-                    <div class="row">
-                        <NavBar />
-                    </div>
+                    <NavBar />
                 </div>
             );
         } else if (state.page === 'flock-page') {

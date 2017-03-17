@@ -8,13 +8,13 @@ var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({   //constructor instance
 
 module.exports = {
     //entry point is the file that WebPack will transform. __dirname refers to the currently executing file
-    entry: __dirname + '/app/src/index.js',
+    entry: __dirname + '/app/src/index.jsx',
     //all transformations go inside module's loaders array. test specifies which files will be affected by the
     //loader (regexp). Include/exclude. loader specifies what transformation to perform.
     module: {
         loaders: [
             {
-                test: /\.js$/,
+                test: /\.jsx$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader'
             }
