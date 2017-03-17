@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NavBar from './components/navbar.jsx';
-
 //BOOTSTRAP IMPORTS
-import {Button, ButtonToolbar} from 'react-bootstrap';
-
 
 class App extends React.Component {
     constructor() {
