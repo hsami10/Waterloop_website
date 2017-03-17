@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import NavBar from './components/navbar.jsx';
 
-//BOOTSTRAP
+//BOOTSTRAP IMPORTS
 import {Button, ButtonToolbar} from 'react-bootstrap';
 
 
@@ -11,7 +11,7 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'sponsors-page'
+            page: 'home-page'
         } 
     }
 
@@ -22,13 +22,7 @@ class App extends React.Component {
     render() {
         const state = this.state;
         if (state.page === 'home-page') {
-            return (
-                <div class="container-fluid">
-                    <div class="row">
-                        <NavBar onClick={this.handlePageChange.bind(this)}/>
-                    </div>
-                </div>
-            );
+            return <Home />;
         } else if (state.page === 'sponsors-page') {
             return (
                 <div class="container-fluid">
@@ -38,25 +32,19 @@ class App extends React.Component {
         } else if (state.page === 'flock-page') {
             return (
                 <div class="container-fluid">
-                    <div class="row">
                         <NavBar />
-                    </div>
                 </div>
             );
         } else if (state.page === 'team-page') {
             return (
                 <div class="container-fluid">
-                    <div class="row">
                         <NavBar />
-                    </div>
                 </div>
             );
         } else if (state.page === 'contact-page') {
             return (
                 <div class="container-fluid">
-                    <div class="row">
                         <NavBar />
-                    </div>
                 </div>
             );
         }

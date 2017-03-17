@@ -1,6 +1,6 @@
 import React from 'react';
 
-//BOOTSTRAP
+//BOOTSTRAP IMPORTS
 import { Navbar, Nav, NavItem, NavDropdown, DropdownButton, MenuItem, CollapsibleNav } from 'react-bootstrap';
 
 
