@@ -5,11 +5,8 @@ import { Navbar, Nav, NavItem, NavDropdown, DropdownButton, MenuItem, Collapsibl
 export default class NavBar extends React.Component {
     render() {
         return (
-            <Navbar inverse collapseOnSelect>
-                <Navbar.Header center>
-                    <Navbar.Brand>
-                        <a href="#">WATERLOOP</a>
-                    </Navbar.Brand>
+            <Navbar inverse collapseOnSelect id="navbar">
+                <Navbar.Header>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
@@ -22,6 +19,9 @@ export default class NavBar extends React.Component {
                             <MenuItem eventKey={3.3}>Goose X</MenuItem>
                         </NavDropdown>
                     </Nav>
+                    <Navbar.Brand id="navbar-brand">
+                        <a href="#">WATERLOOP</a>
+                    </Navbar.Brand>
                     <Nav pullRight>
                         <NavItem eventKey={1} href="#">Team</NavItem>
                         <NavItem eventKey={2} href="#">Contact</NavItem>

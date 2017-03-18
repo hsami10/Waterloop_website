@@ -1,0 +1,12 @@
+body {
+    background: black;
+}
+
+#navbar {
+    border: none;
+    background: black;
+}
+
+#navbar-brand {
+    text-align: center;
+}
