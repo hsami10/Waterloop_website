@@ -1,0 +1,42 @@
+$dark-grey: #222222;
+
+body {
+    background: black;
+}
+
+/*-------------------- NAVBAR ----------------------------*/
+#navbar {
+    border: none;
+    background: black;
+    text-align: right;
+}
+
+#navbar-brand {
+    padding: 15px;
+    margin-left: 0px;
+}
+
+#navbar-items {
+    width: 45%;
+    margin: auto;
+    float: none;
+    /*padding: 0 30%;*/
+}
+
+/*----------------------- HOME --------------------------*/ 
+/* First Face */
+#homeFirstFace {
+    text-align: center;
+}
+
+.homeFirstFace {
+    margin-bottom: 20px;
+}
+
+#homeFirstFace-image {
+
+}
+
+#goose2LrnMore-btn {
+
+}

@@ -29,16 +29,16 @@ class FirstFace extends React.Component {
         return (
             <Grid>
                 <Row>
-                    <Col md={10} lg={10} mdOffset={1} lgOffset={1}>
-                        <div>
+                    <Col md={10} lg={10} mdOffset={1} lgOffset={1} id="homeFirstFace">
+                        <div id="homeFirstFace-image" className="homeFirstFace">
                             <img src="http://placehold.it/850x450"/>
                         </div>
-                        <Button bsStyle="primary" bsSize="lg">
+                        <Button bsStyle="primary" bsSize="lg" id="goose2LrnMore-btn" className="homeFirstFace">
                             Goose II - Learn More
                         </Button>
                         <br />
-                        <div>
-                            <img src={images + 'arrow-down.png'} alt="Arrow_down" height="50" width="50"/>
+                        <div className="homeFirstFace">
+                            <img src={images + 'arrow-down.png'} alt="Arrow_down" height="40" width="40"/>
                         </div>
                     </Col>
                 </Row>
