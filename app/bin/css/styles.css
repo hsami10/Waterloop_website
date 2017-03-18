@@ -46,6 +46,17 @@ Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators
   border-bottom: thick solid #206393; }
 
 /* MIDFACE */
+.homeTitles {
+  margin-top: 60px;
+  color: #39abff;
+  font-size: 30px;
+  font-weight: 900; }
+
+.watchVidPrompts {
+  color: white;
+  font-size: 23px;
+  font-weight: 550; }
+
 body {
   background: black; }
 

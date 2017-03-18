@@ -53,9 +53,9 @@ class MidFace extends React.Component {
             <Grid>
                 <Row>
                     <Col md={10} lg={10} mdOffset={1} lgOffset={1} id="homeMidFace">
-                        <div>BEYOND SCIENCE FICTION</div>
+                        <div className="homeTitles">BEYOND SCIENCE FICTION</div>
                         <br />
-                        <div>Watch the University Video <span>&rarr;</span></div>
+                        <div className="watchVidPrompts">Watch the University Video <span>&rarr;</span></div>
                         <br />
                         <div>
                             <img src="http://placehold.it/350x150" alt="palceholder"/>
@@ -73,9 +73,9 @@ class EndFace extends React.Component {
             <Grid>
                 <Row>
                     <Col md={10} lg={10} mdOffset={1} lgOffset={1}>
-                        <div>WHAT IS WATERLOOP?</div>
+                        <div className="homeTitles">WHAT IS WATERLOOP?</div>
                         <br />
-                        <div>Watch the Video <span>&rarr;</span></div>
+                        <div className="watchVidPrompts" style={{marginBottom:'20px'}}>Watch the Video <span>&rarr;</span></div>
                         <div>
                             <img src="http://placehold.it/350x150" alt="placeholder"/>
                         </div>
