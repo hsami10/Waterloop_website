@@ -1,6 +1,9 @@
-/*SASS tings: 
-Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators*/
+/*
+SASS tings: 
+Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators
+*/
 #navbar {
+  margin-top: 15px;
   border: none;
   background: black;
   text-align: right; }
@@ -17,11 +20,32 @@ Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators*/
 
 /* First Face */
 #homeFirstFace {
-  text-align: center; }
+  text-align: center;
+  /*
+  #goose2LrnMore-btn {
+      border-radius: 0px;
+      outline: none;
+      color: #206393;
+      background-color: blue;
+      opacity: 0.3;
+      border: none;
+      border-bottom: thick solid #206393;
+  }*/ }
 
-.homeFirstFace {
+.homeFirstFace, #homeMidFace > div {
   margin-bottom: 20px; }
 
+#goose2LrnMore-btn {
+  border-radius: 0px;
+  outline: none;
+  color: #4e96c9;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgba(40, 112, 163, 0.3);
+  border: none;
+  border-bottom: thick solid #206393; }
+
+/* MIDFACE */
 body {
   background: black; }
 

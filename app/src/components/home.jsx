@@ -33,7 +33,7 @@ class FirstFace extends React.Component {
                         <div id="homeFirstFace-image" className="homeFirstFace">
                             <img src="http://placehold.it/950x520"/>
                         </div>
-                        <Button bsStyle="primary" bsSize="lg" id="goose2LrnMore-btn" className="homeFirstFace">
+                        <Button bsSize="lg" id="goose2LrnMore-btn" className="homeFirstFace">
                             Goose II - Learn More
                         </Button>
                         <br />
@@ -52,7 +52,7 @@ class MidFace extends React.Component {
         return (
             <Grid>
                 <Row>
-                    <Col md={10} lg={10} mdOffset={1} lgOffset={1}>
+                    <Col md={10} lg={10} mdOffset={1} lgOffset={1} id="homeMidFace">
                         <div>BEYOND SCIENCE FICTION</div>
                         <br />
                         <div>Watch the University Video <span>&rarr;</span></div>

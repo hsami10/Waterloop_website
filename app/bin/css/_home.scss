@@ -1,16 +1,39 @@
 /* First Face */
 #homeFirstFace {
     text-align: center;
+    /*
+    #goose2LrnMore-btn {
+        border-radius: 0px;
+        outline: none;
+        color: #206393;
+        background-color: blue;
+        opacity: 0.3;
+        border: none;
+        border-bottom: thick solid #206393;
+    }*/
 }
 
 .homeFirstFace {
     margin-bottom: 20px;
 }
 
+#goose2LrnMore-btn {
+    border-radius: 0px;
+    outline: none;
+    color: #4e96c9;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(40, 112, 163, 0.3);
+    border: none;
+    border-bottom: thick solid #206393;
+}
+
 #homeFirstFace-image {
 
 }
 
-#goose2LrnMore-btn {
 
+/* MIDFACE */
+#homeMidFace > div {
+    @extend .homeFirstFace;
 }
