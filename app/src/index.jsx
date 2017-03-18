@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from './components/home.jsx'
 //BOOTSTRAP IMPORTS
 
 class App extends React.Component {

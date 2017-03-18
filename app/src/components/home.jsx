@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './components/navbar.jsx';
+import NavBar from './navbar.jsx';
 //BOOTSTRAP IMPORTS
 import {Grid, Row, Col} from 'react-bootstrap';
 import {Button, ButtonToolbar} from 'react-bootstrap';
@@ -22,21 +22,23 @@ export default class Home extends React.Component {
     }
 }
 
+let images = '/app/bin/Images/'; //all images stored here
+
 class FirstFace extends React.Component {
     render() {
         return (
             <Grid>
                 <Row>
                     <Col md={10} lg={10} mdOffset={1} lgOffset={1}>
-                        <Row>
-                            
-                        </Row>
-                        <Button bsStyle="Primary" bsSize="lg">
-
+                        <div>
+                            <img src="http://placehold.it/850x450"/>
+                        </div>
+                        <Button bsStyle="primary" bsSize="lg">
+                            Goose II - Learn More
                         </Button>
                         <br />
                         <div>
-                            <img src="../../bin/Images/arrow-down.png" alt="Arrow_down" height="50" width="50"/>
+                            <img src={images + 'arrow-down.png'} alt="Arrow_down" height="50" width="50"/>
                         </div>
                     </Col>
                 </Row>
@@ -56,7 +58,7 @@ class MidFace extends React.Component {
                         <div>Watch the University Video <span>&rarr;</span></div>
                         <br />
                         <div>
-                            <img src="../../bin/Images/arrow-down.png" alt="arrow"/>
+                            <img src="http://placehold.it/350x150" alt="palceholder"/>
                         </div>
                     </Col>
                 </Row>
@@ -75,7 +77,7 @@ class EndFace extends React.Component {
                         <br />
                         <div>Watch the Video <span>&rarr;</span></div>
                         <div>
-                            <img src="../../bin/Images/arrow-down.png" alt="arrow"/>
+                            <img src="http://placehold.it/350x150" alt="placeholder"/>
                         </div>
                     </Col>
                 </Row>
