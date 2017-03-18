@@ -9,7 +9,7 @@ export default class NavBar extends React.Component {
                 <Navbar.Header>
                     <Navbar.Toggle />
                 </Navbar.Header>
-                <Navbar.Collapse>
+                <Navbar.Collapse id="navbar-items">
                     <Nav>
                         <NavItem eventKey={2} href="#">Sponsors</NavItem>
                         <NavDropdown eventKey={3} title="Flock" id="basic-nav-dropdown">
@@ -19,10 +19,10 @@ export default class NavBar extends React.Component {
                             <MenuItem eventKey={3.3}>Goose X</MenuItem>
                         </NavDropdown>
                     </Nav>
-                    <Navbar.Brand id="navbar-brand">
-                        <a href="#">WATERLOOP</a>
+                    <Navbar.Brand>
+                        <a href="#" id="navbar-brand">WATERLOOP</a>
                     </Navbar.Brand>
-                    <Nav pullRight>
+                    <Nav>
                         <NavItem eventKey={1} href="#">Team</NavItem>
                         <NavItem eventKey={2} href="#">Contact</NavItem>
                     </Nav>
