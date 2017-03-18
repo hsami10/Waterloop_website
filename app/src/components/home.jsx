@@ -31,7 +31,7 @@ class FirstFace extends React.Component {
                 <Row>
                     <Col md={10} lg={10} mdOffset={1} lgOffset={1} id="homeFirstFace">
                         <div id="homeFirstFace-image" className="homeFirstFace">
-                            <img src="http://placehold.it/850x450"/>
+                            <img src="http://placehold.it/950x520"/>
                         </div>
                         <Button bsStyle="primary" bsSize="lg" id="goose2LrnMore-btn" className="homeFirstFace">
                             Goose II - Learn More

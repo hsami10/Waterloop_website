@@ -1,7 +1,5 @@
-body {
-  background: black; }
-
-/*-------------------- NAVBAR ----------------------------*/
+/*SASS tings: 
+Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators*/
 #navbar {
   border: none;
   background: black;
@@ -17,12 +15,14 @@ body {
   float: none;
   /*padding: 0 30%;*/ }
 
-/*----------------------- HOME --------------------------*/
 /* First Face */
 #homeFirstFace {
   text-align: center; }
 
 .homeFirstFace {
   margin-bottom: 20px; }
+
+body {
+  background: black; }
 
 /*# sourceMappingURL=styles.css.map */
