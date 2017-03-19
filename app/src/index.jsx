@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './components/home.jsx'
+import Team from './components/team.jsx'
 //BOOTSTRAP IMPORTS
 
 class App extends React.Component {
@@ -8,7 +9,7 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'home-page'
+            page: 'team-page'
         } 
     }
 
@@ -33,11 +34,7 @@ class App extends React.Component {
                 </div>
             );
         } else if (state.page === 'team-page') {
-            return (
-                <div class="container-fluid">
-                        <NavBar />
-                </div>
-            );
+            return <Team />;
         } else if (state.page === 'contact-page') {
             return (
                 <div class="container-fluid">

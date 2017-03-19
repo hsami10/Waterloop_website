@@ -14,45 +14,107 @@ import { Thumbnail } from 'react-bootstrap';
 */
 
 let images = '/app/bin/Images/'; //all images stored here
+let placeholder = 'http://placehold.it/200x200';
 let members = [
     {
         name: "Luca Wilmer",
         title: "Structures Lead",
-        image: "http://placehold.it/270x270"
+        image: placeholder
     },
     {
-
-    }
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: placeholder
+    },
 ];
 
+//Main class to create the whole team page
 export default class Team extends React.Component {
     render() {
-
-
         return (
             <Grid>
                 <Row id="teamBackground">
                     <NavBar />
                     <h1 id="ourTeamTitle">OUR TEAM</h1>
                 </Row>
-                <Row>
-                    <Item name="Jake Malliaros" title="Team Captain"></Item>
+                <Row id="captainDiv">
+                    <Item name="Jake Malliaros" title="Team Captain" image="http://placehold.it/200x200" id="jakeBox"/>
                 </Row>
                 <Row>
-
+                    <CreateItems />
                 </Row>
             </Grid>
         );
     }
 }
 
+//CreateItems calls the Item component on each member in the array members.
+class CreateItems extends React.Component {
+    render() {
+        let renderMembers = members.map(function (member, i) {
+            return (
+                <Item name={member.name} title={member.title} image={member.image} />
+            );
+        });
+
+        return (
+            <div id="membersWrapper">
+                {renderMembers}
+            </div>
+        );
+    }
+}
+
+//Item finally creates a Bootstrap Thumbnail based on the props it receives.
 class Item extends React.Component {
     render() {
         return (
-            <Thumbnail src="http://placehold.it/270x270" alt="270x270">
-                <h3>{this.props.name}</h3>
-                <h4>{this.props.title}</h4>
-            </Thumbnail>
+            <Col md={3} lg={3}>
+                <Thumbnail src={this.props.image} alt="200x200">
+                    <h3>{this.props.name}</h3>
+                    <h4>{this.props.title}</h4>
+                </Thumbnail>
+            </Col>
         );
     }
 }
