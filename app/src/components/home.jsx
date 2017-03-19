@@ -9,6 +9,8 @@ import {Button, ButtonToolbar} from 'react-bootstrap';
 //MidFace: 'beyond science fiction - watch university video' component
 //EndFace: 'what is Waterloop' comp
 
+let images = '/app/bin/Images/'; //all images stored here
+
 export default class Home extends React.Component {
     render() {
         return (
@@ -21,8 +23,6 @@ export default class Home extends React.Component {
         );
     }
 }
-
-let images = '/app/bin/Images/'; //all images stored here
 
 class FirstFace extends React.Component {
     render() {
