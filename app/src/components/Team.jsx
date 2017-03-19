@@ -1,7 +1,8 @@
 import React from 'react';
 import NavBar from './navbar.jsx';
 //BOOTSTRAP IMPORTS
-import {Grid, Row, Col} from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
+import { Thumbnail } from 'react-bootstrap';
 
 /*
 - make a div that contains the navbar and the OUR TEAM div
@@ -13,14 +14,45 @@ import {Grid, Row, Col} from 'react-bootstrap';
 */
 
 let images = '/app/bin/Images/'; //all images stored here
+let members = [
+    {
+        name: "Luca Wilmer",
+        title: "Structures Lead",
+        image: "http://placehold.it/270x270"
+    },
+    {
+
+    }
+];
 
 export default class Team extends React.Component {
     render() {
-        <div class="container-fluid">
-            <div id="teamBackground">
-                <NavBar />
-                <h1 id="ourTeamTitle">OUR TEAM</h1>
-            </div>
-        </div>
+
+
+        return (
+            <Grid>
+                <Row id="teamBackground">
+                    <NavBar />
+                    <h1 id="ourTeamTitle">OUR TEAM</h1>
+                </Row>
+                <Row>
+                    <Item name="Jake Malliaros" title="Team Captain"></Item>
+                </Row>
+                <Row>
+
+                </Row>
+            </Grid>
+        );
+    }
+}
+
+class Item extends React.Component {
+    render() {
+        return (
+            <Thumbnail src="http://placehold.it/270x270" alt="270x270">
+                <h3>{this.props.name}</h3>
+                <h4>{this.props.title}</h4>
+            </Thumbnail>
+        );
     }
 }
