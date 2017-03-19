@@ -29,14 +29,17 @@
 }
 
 
-/* MIDFACE */
+/* MIDFACE n ENDFACE*/
+
+$home-titles: #39abff;
+
 #homeMidFace > div {
     @extend .homeFirstFace;
 }
 
 .homeTitles {
     margin-top: 60px;
-    color: #39abff;
+    color: $home-titles;
     font-size: 30px;
     font-weight: 900;
 }

@@ -5,7 +5,7 @@ Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators
 #navbar {
   margin-top: 15px;
   border: none;
-  background: black;
+  background: none;
   text-align: right; }
 
 #navbar-brand {
@@ -45,7 +45,7 @@ Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators
   border: none;
   border-bottom: thick solid #206393; }
 
-/* MIDFACE */
+/* MIDFACE n ENDFACE*/
 .homeTitles {
   margin-top: 60px;
   color: #39abff;
