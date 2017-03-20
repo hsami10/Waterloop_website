@@ -85,6 +85,26 @@ you see classes below that have not been explicitly defined in the modules*/
   border: none;
   text-align: center; }
 
+#g1Backgrnd {
+  height: 700px;
+  background-image: url("http://placehold.it/1100x600"); }
+
+#g1TitleRow {
+  background: white;
+  position: relative; }
+
+#g1Title {
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: -200px; }
+
+#g1Content {
+  background: white;
+  padding-left: 50px;
+  text-align: center; }
+
 body {
   background: black; }
 
