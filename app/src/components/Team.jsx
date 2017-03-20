@@ -75,11 +75,9 @@ export default class Team extends React.Component {
             <Grid>
                 <Row id="teamBackground">
                     <NavBar />
-                    <div>
-                        <h1 id="ourTeamTitle">OUR TEAM</h1>
-                    </div>
                 </Row>
                 <Row id="captainRow">
+                    <h1 id="ourTeamTitle">OUR TEAM</h1>
                     <Item name="Jake Malliaros" title="Team Captain" image="http://placehold.it/200x200" id="captainJake" />
                 </Row>
                 <Row id="membersWrapper">
