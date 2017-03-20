@@ -65,15 +65,20 @@ you see classes below that have not been explicitly defined in the modules*/
   height: 700px;
   background-image: url("http://placehold.it/1100x600"); }
 
-#captainDiv {
-  margin-top: 15px;
-  background: white; }
+#ourTeamTitle {
+  color: white;
+  font-weight: 900; }
+
+#captainRow {
+  background: white;
+  position: relative; }
 
 #captainJake {
   float: none;
   margin-top: 15px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  top: -50px; }
 
 #membersWrapper {
   background: white; }
