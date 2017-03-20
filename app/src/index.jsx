@@ -10,7 +10,7 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'home-page'
+            page: 'goose1-page'
         } 
     }
 
@@ -28,7 +28,17 @@ class App extends React.Component {
                     <NavBar />
                 </div>
             );
-        } else if (state.page === 'flock-page') {
+        } else if (state.page === 'goose1-page') {
+            return (
+                <Goose1 />
+            );
+        } else if (state.page === 'goose2-page') {
+            return (
+                <div className="container-fluid">
+                        <NavBar />
+                </div>
+            );
+        } else if (state.page === 'gooseX-page') {
             return (
                 <div className="container-fluid">
                         <NavBar />

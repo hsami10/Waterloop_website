@@ -74,8 +74,8 @@ export default class Goose1 extends React.Component {
                     <h3>EMBEDDED</h3>
                     <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae 
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece.
-                        sententiae incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece.</p>
-                    <img src='http://placehold.it/650x650'/>
+                        sententiae incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius 
+                        graece.</p>
                 </Row>
             </Grid>
         );
