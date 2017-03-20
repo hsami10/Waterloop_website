@@ -58,7 +58,7 @@ class MidFace extends React.Component {
                         <div className="watchVidPrompts">Watch the University Video <span>&rarr;</span></div>
                         <br />
                         <div>
-                            <img src="http://placehold.it/350x150" alt="palceholder"/>
+                            <img src="http://placehold.it/650x450" alt="palceholder"/>
                         </div>
                     </Col>
                 </Row>
@@ -77,7 +77,7 @@ class EndFace extends React.Component {
                         <br />
                         <div className="watchVidPrompts" style={{marginBottom:'20px'}}>Watch the Video <span>&rarr;</span></div>
                         <div>
-                            <img src="http://placehold.it/350x150" alt="placeholder"/>
+                            <img src="http://placehold.it/650x450" alt="placeholder"/>
                         </div>
                     </Col>
                 </Row>
