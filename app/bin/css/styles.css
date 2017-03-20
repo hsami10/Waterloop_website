@@ -120,7 +120,7 @@ you see classes below that have not been explicitly defined in the modules*/
     margin-bottom: 35px;
     text-align: left; }
   #g1Content img {
-    margin-bottom: 35px; }
+    margin: 0 auto 35px; }
 
 body {
   background: black; }
