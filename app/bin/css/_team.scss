@@ -1,3 +1,8 @@
+/*Some below (such as .thumbnail) are classes that you would use in regular
+bootstrap in your HTML, not react-bootstrap (.thumbnail becomes <Thumbnail/>). The
+react components are compiled by Babel into regular HTML and javascript. That is why
+you see classes below that have not been explicitly defined in the modules*/
+
 #teamBackground {
     height: 700px;
     background-image: url("http://placehold.it/1100x600");
@@ -6,6 +11,16 @@
 #captainDiv {
     text-align: center;
     margin-top: 15px;
+    background: white;
+}
+
+#membersWrapper {
+    background: white;
+}
+
+/*the Thumbnail component translates into the thumbnail class in regular bootstrap*/
+.thumbnail {
+    border: none;
 }
 
 #jakeBox {

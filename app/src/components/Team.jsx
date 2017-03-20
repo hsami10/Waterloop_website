@@ -75,12 +75,14 @@ export default class Team extends React.Component {
             <Grid>
                 <Row id="teamBackground">
                     <NavBar />
-                    <h1 id="ourTeamTitle">OUR TEAM</h1>
+                    <div>
+                        <h1 id="ourTeamTitle">OUR TEAM</h1>
+                    </div>
                 </Row>
                 <Row id="captainDiv">
-                    <Item name="Jake Malliaros" title="Team Captain" image="http://placehold.it/200x200" id="jakeBox"/>
+                    <Item name="Jake Malliaros" title="Team Captain" image="http://placehold.it/200x200" id="jakeBox" />
                 </Row>
-                <Row>
+                <Row id="membersWrapper">
                     <CreateItems />
                 </Row>
             </Grid>
@@ -98,7 +100,7 @@ class CreateItems extends React.Component {
         });
 
         return (
-            <div id="membersWrapper">
+            <div>
                 {renderMembers}
             </div>
         );
@@ -109,7 +111,7 @@ class CreateItems extends React.Component {
 class Item extends React.Component {
     render() {
         return (
-            <Col md={3} lg={3}>
+            <Col lg={3}>
                 <Thumbnail src={this.props.image} alt="200x200">
                     <h3>{this.props.name}</h3>
                     <h4>{this.props.title}</h4>
