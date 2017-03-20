@@ -80,7 +80,7 @@ export default class Team extends React.Component {
                     </div>
                 </Row>
                 <Row id="captainDiv">
-                    <Item name="Jake Malliaros" title="Team Captain" image="http://placehold.it/200x200" id="jakeBox" />
+                    <Item name="Jake Malliaros" title="Team Captain" image="http://placehold.it/200x200" id="captainJake" />
                 </Row>
                 <Row id="membersWrapper">
                     <CreateItems />
@@ -110,8 +110,19 @@ class CreateItems extends React.Component {
 //Item finally creates a Bootstrap Thumbnail based on the props it receives.
 class Item extends React.Component {
     render() {
+        if (this.props.id) {
+            return (
+                <Col lg={3} md={4} id={this.props.id}>
+                    <Thumbnail src={this.props.image} alt="200x200">
+                        <h3>{this.props.name}</h3>
+                        <h4>{this.props.title}</h4>
+                    </Thumbnail>
+                </Col>
+            );
+        }
+
         return (
-            <Col lg={3}>
+            <Col lg={3} md={4}>
                 <Thumbnail src={this.props.image} alt="200x200">
                     <h3>{this.props.name}</h3>
                     <h4>{this.props.title}</h4>

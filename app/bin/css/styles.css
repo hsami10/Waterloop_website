@@ -66,20 +66,22 @@ you see classes below that have not been explicitly defined in the modules*/
   background-image: url("http://placehold.it/1100x600"); }
 
 #captainDiv {
-  text-align: center;
   margin-top: 15px;
   background: white; }
+
+#captainJake {
+  float: none;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; }
 
 #membersWrapper {
   background: white; }
 
 /*the Thumbnail component translates into the thumbnail class in regular bootstrap*/
 .thumbnail {
-  border: none; }
-
-#jakeBox {
-  margin-left: auto;
-  margin-right: auto; }
+  border: none;
+  text-align: center; }
 
 body {
   background: black; }

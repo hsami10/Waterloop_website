@@ -9,9 +9,15 @@ you see classes below that have not been explicitly defined in the modules*/
 }
 
 #captainDiv {
-    text-align: center;
     margin-top: 15px;
     background: white;
+}
+
+#captainJake {
+    float: none;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #membersWrapper {
@@ -21,9 +27,7 @@ you see classes below that have not been explicitly defined in the modules*/
 /*the Thumbnail component translates into the thumbnail class in regular bootstrap*/
 .thumbnail {
     border: none;
+    text-align: center;
 }
 
-#jakeBox {
-    margin-left: auto;
-    margin-right: auto;
-}
+
