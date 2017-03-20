@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './components/home.jsx'
 import Team from './components/team.jsx'
+import Goose1 from './components/goose1.jsx';
 //BOOTSTRAP IMPORTS
 
 class App extends React.Component {
