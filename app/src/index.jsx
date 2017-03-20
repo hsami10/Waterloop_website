@@ -9,7 +9,7 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'team-page'
+            page: 'home-page'
         } 
     }
 
@@ -20,16 +20,16 @@ class App extends React.Component {
     render() {
         const state = this.state;
         if (state.page === 'home-page') {
-            return <Home />;
+            return <Home onPageChange={this.handlePageChange.bind(this)}/>;
         } else if (state.page === 'sponsors-page') {
             return (
-                <div class="container-fluid">
+                <div className="container-fluid">
                     <NavBar />
                 </div>
             );
         } else if (state.page === 'flock-page') {
             return (
-                <div class="container-fluid">
+                <div className="container-fluid">
                         <NavBar />
                 </div>
             );
@@ -37,7 +37,7 @@ class App extends React.Component {
             return <Team />;
         } else if (state.page === 'contact-page') {
             return (
-                <div class="container-fluid">
+                <div className="container-fluid">
                         <NavBar />
                 </div>
             );

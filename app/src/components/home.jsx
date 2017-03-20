@@ -14,8 +14,8 @@ let images = '/app/bin/Images/'; //all images stored here
 export default class Home extends React.Component {
     render() {
         return (
-            <div class="container-fluid">
-                <NavBar />
+            <div className="container-fluid">
+                <NavBar onPageChange={this.props.onPageChange}/>
                 <FirstFace />
                 <MidFace />
                 <EndFace />

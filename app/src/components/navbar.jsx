@@ -3,6 +3,10 @@ import React from 'react';
 import { Navbar, Nav, NavItem, NavDropdown, DropdownButton, MenuItem, CollapsibleNav } from 'react-bootstrap';
 
 export default class NavBar extends React.Component {
+    handleSelect(pageName) {
+        this.props.onPageChange(pageName + '-page');
+    }
+
     render() {
         return (
             <Navbar inverse collapseOnSelect id="navbar">
@@ -22,9 +26,9 @@ export default class NavBar extends React.Component {
                     <Navbar.Brand>
                         <a href="#" id="navbar-brand">WATERLOOP</a>
                     </Navbar.Brand>
-                    <Nav>
-                        <NavItem eventKey={1} href="#">Team</NavItem>
-                        <NavItem eventKey={2} href="#">Contact</NavItem>
+                    <Nav onSelect={this.handleSelect('team')}>
+                        <NavItem eventKey={1} href="#" >Team</NavItem>
+                        <NavItem eventKey={2} href="#" >Contact</NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
