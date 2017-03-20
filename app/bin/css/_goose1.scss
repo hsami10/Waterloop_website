@@ -1,3 +1,7 @@
+$g1HeadingsColor: rgb(51, 51, 51);
+$g1TextColor: rgb(158, 158, 158);
+$g1MarginContent: 35px;
+
 #g1Backgrnd {
     height: 700px;
     background-image: url("http://placehold.it/1100x600");
@@ -5,12 +9,14 @@
 
 #g1TitleRow {
     background: white;
-    position: relative
+    position: relative;
+    margin-top: -25px;
 }
 
 #g1Title {
     color: white;
     font-weight: 900;
+    font-size: 50px;
     text-align: center;
     position: relative;
     top: -200px;
@@ -18,7 +24,30 @@
 
 #g1Content {
     background: white;
-    padding-left: 50px;
+    padding: 0px 70px 70px;
     text-align: center;
+    margin-bottom: 40px;
+
+    p {
+        color: $g1TextColor;
+        margin-bottom: $g1MarginContent;
+        text-align: left;
+    }
+
+    h2 {
+        color: $g1HeadingsColor;
+        font-weight: 800;
+        margin-bottom: $g1MarginContent;
+    }
+
+    h3 {
+        color: $g1HeadingsColor;
+        margin-bottom: $g1MarginContent;
+        text-align: left;
+    }
+
+    img {
+        margin-bottom: $g1MarginContent;
+    }
 }
 
