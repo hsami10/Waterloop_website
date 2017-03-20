@@ -1,16 +1,14 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+
 /* First Face */
 #homeFirstFace {
     text-align: center;
-    /*
-    #goose2LrnMore-btn {
-        border-radius: 0px;
-        outline: none;
-        color: #206393;
-        background-color: blue;
-        opacity: 0.3;
-        border: none;
-        border-bottom: thick solid #206393;
-    }*/
 }
 
 .homeFirstFace {
@@ -18,7 +16,7 @@
 }
 
 #goose2LrnMore-btn {
-    border-radius: 0px;
+    @include border-radius(0px);
     outline: none;
     color: #4e96c9;
     font-size: 18px;

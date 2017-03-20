@@ -20,22 +20,15 @@ Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators
 
 /* First Face */
 #homeFirstFace {
-  text-align: center;
-  /*
-  #goose2LrnMore-btn {
-      border-radius: 0px;
-      outline: none;
-      color: #206393;
-      background-color: blue;
-      opacity: 0.3;
-      border: none;
-      border-bottom: thick solid #206393;
-  }*/ }
+  text-align: center; }
 
 .homeFirstFace, #homeMidFace > div {
   margin-bottom: 20px; }
 
 #goose2LrnMore-btn {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
   border-radius: 0px;
   outline: none;
   color: #4e96c9;
