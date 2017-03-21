@@ -10,7 +10,7 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'goose1-page'
+            page: 'team-page'
         } 
     }
 
