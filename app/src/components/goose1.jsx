@@ -7,7 +7,7 @@ import { Image } from 'react-bootstrap';
 export default class Goose1 extends React.Component {
     render() {
         return (
-            <Grid>
+            <Grid fluid>
                 <Row id="g1Backgrnd">
                     <NavBar />
                 </Row>

@@ -27,14 +27,20 @@ class App extends React.Component {
     render() {
         const state = this.state;
         if (state.page === 'home-page') {
-            return <Home onPageChange={this.handlePageChange.bind(this)} />;
+            return (
+                <div className="container-fluid">
+                    <Home onPageChange={this.handlePageChange.bind(this)} />
+                </div>
+            );
         } else if (state.page === 'sponsors-page') {
             return (
                 <Sponsors />
             );
         } else if (state.page === 'goose1-page') {
             return (
-                <Goose1 />
+                <div className="container-fluid" style={{padding:'0'}}>
+                    <Goose1 />
+                </div>
             );
         } else if (state.page === 'goose2-page') {
             return (
