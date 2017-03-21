@@ -87,16 +87,16 @@ you see classes below that have not been explicitly defined in the modules*/
   border: none;
   text-align: center; }
 
-#g1Backgrnd, #gXBackgrnd {
+#g1Backgrnd, #gXBackgrnd, #g2Backgrnd {
   height: 740px;
   background-image: url("http://placehold.it/1100x600"); }
 
-#g1TitleRow, #gXTitleRow {
+#g1TitleRow, #gXTitleRow, #g2TitleRow {
   background: white;
   position: relative;
   height: 35px; }
 
-#g1Title, #gXTitle {
+#g1Title, #gXTitle, #g2Title {
   color: white;
   font-weight: 900;
   font-size: 50px;
@@ -104,24 +104,24 @@ you see classes below that have not been explicitly defined in the modules*/
   position: relative;
   top: -200px; }
 
-#g1Content, #gXContent {
+#g1Content, #gXContent, #g2Content {
   background: white;
   padding: 0px 150px 70px;
   text-align: center;
   margin-bottom: 40px; }
-  #g1Content p, #gXContent p {
+  #g1Content p, #gXContent p, #g2Content p {
     color: #9e9e9e;
     margin-bottom: 35px;
     text-align: left; }
-  #g1Content h2, #gXContent h2 {
+  #g1Content h2, #gXContent h2, #g2Content h2 {
     color: #333333;
     font-weight: 800;
     margin-bottom: 35px; }
-  #g1Content h3, #gXContent h3 {
+  #g1Content h3, #gXContent h3, #g2Content h3 {
     color: #333333;
     margin-bottom: 35px;
     text-align: left; }
-  #g1Content img, #gXContent img {
+  #g1Content img, #gXContent img, #g2Content img {
     margin: 0 auto 35px; }
 
 body {

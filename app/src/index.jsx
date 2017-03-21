@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Home from './components/home.jsx'
 import Team from './components/team.jsx'
 import Goose1 from './components/goose1.jsx';
+import Goose2 from './components/goose2.jsx';
 import GooseX from './components/gooseX.jsx';
 //BOOTSTRAP IMPORTS
 
@@ -11,18 +12,18 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'gooseX-page'
-        } 
+            page: 'goose2-page'
+        }
     }
 
     handlePageChange(name) {
-        this.setState({page: name});
+        this.setState({ page: name });
     }
 
     render() {
         const state = this.state;
         if (state.page === 'home-page') {
-            return <Home onPageChange={this.handlePageChange.bind(this)}/>;
+            return <Home onPageChange={this.handlePageChange.bind(this)} />;
         } else if (state.page === 'sponsors-page') {
             return (
                 <div className="container-fluid">
@@ -34,7 +35,9 @@ class App extends React.Component {
                 <Goose1 />
             );
         } else if (state.page === 'goose2-page') {
-            return ;
+            return (
+                <Goose2 />
+            );
         } else if (state.page === 'gooseX-page') {
             return (
                 <GooseX />
@@ -44,7 +47,7 @@ class App extends React.Component {
         } else if (state.page === 'contact-page') {
             return (
                 <div className="container-fluid">
-                        <NavBar />
+                    <NavBar />
                 </div>
             );
         }
