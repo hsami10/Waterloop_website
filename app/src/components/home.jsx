@@ -3,6 +3,7 @@ import NavBar from './navbar.jsx';
 //BOOTSTRAP IMPORTS
 import {Grid, Row, Col} from 'react-bootstrap';
 import {Button, ButtonToolbar} from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 
 //navbar component
 //FirstFace: main picture comp
@@ -29,9 +30,9 @@ class FirstFace extends React.Component {
         return (
             <Grid>
                 <Row>
-                    <Col md={10} lg={10} mdOffset={1} lgOffset={1} id="homeFirstFace">
+                    <Col id="homeFirstFace">
                         <div id="homeFirstFace-image" className="homeFirstFace">
-                            <img src="http://placehold.it/950x520"/>
+                            <Image src='http://placehold.it/1100x600' responsive/>
                         </div>
                         <Button bsSize="lg" id="goose2LrnMore-btn" className="homeFirstFace">
                             Goose II - Learn More
@@ -52,7 +53,7 @@ class MidFace extends React.Component {
         return (
             <Grid>
                 <Row>
-                    <Col md={10} lg={10} mdOffset={1} lgOffset={1} id="homeMidFace">
+                    <Col id="homeMidFace">
                         <div className="homeTitles">BEYOND SCIENCE FICTION</div>
                         <br />
                         <div className="watchVidPrompts">Watch the University Video <span>&rarr;</span></div>
@@ -72,7 +73,7 @@ class EndFace extends React.Component {
         return (
             <Grid>
                 <Row>
-                    <Col md={10} lg={10} mdOffset={1} lgOffset={1}>
+                    <Col>
                         <div className="homeTitles">WHAT IS WATERLOOP?</div>
                         <br />
                         <div className="watchVidPrompts" style={{marginBottom:'20px'}}>Watch the Video <span>&rarr;</span></div>

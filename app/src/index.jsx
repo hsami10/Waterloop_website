@@ -28,9 +28,7 @@ class App extends React.Component {
         const state = this.state;
         if (state.page === 'home-page') {
             return (
-                <div className="container-fluid">
-                    <Home onPageChange={this.handlePageChange.bind(this)} />
-                </div>
+                <Home onPageChange={this.handlePageChange.bind(this)} />
             );
         } else if (state.page === 'sponsors-page') {
             return (
@@ -38,9 +36,7 @@ class App extends React.Component {
             );
         } else if (state.page === 'goose1-page') {
             return (
-                <div className="container-fluid" style={{padding:'0'}}>
-                    <Goose1 />
-                </div>
+                <Goose1 />
             );
         } else if (state.page === 'goose2-page') {
             return (
