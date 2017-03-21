@@ -9,7 +9,7 @@ export default class NavBar extends React.Component {
 
     render() {
         return (
-            <Navbar inverse collapseOnSelect id="navbar">
+            <Navbar inverse fixedTop collapseOnSelect id="navbar">
                 <Navbar.Header>
                     <Navbar.Toggle />
                 </Navbar.Header>

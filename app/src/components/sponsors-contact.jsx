@@ -34,7 +34,13 @@ export class Contact extends React.Component {
                     <h1 id="contTitle">CONTACT</h1>
                 </Row>
                 <Row id="contContent">
-
+                    <Row>
+                        <h2>CONTACT US</h2>
+                        <h4>Please complete the form below</h4>
+                    </Row>
+                    <Row>
+                        
+                    </Row>
                 </Row>
             </Grid>
         );
