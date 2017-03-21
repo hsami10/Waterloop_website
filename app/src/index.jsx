@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Home from './components/home.jsx'
 import Team from './components/team.jsx'
 import Goose1 from './components/goose1.jsx';
+import Goose2 from './components/goose2.jsx';
 //BOOTSTRAP IMPORTS
 
 class App extends React.Component {
@@ -34,9 +35,7 @@ class App extends React.Component {
             );
         } else if (state.page === 'goose2-page') {
             return (
-                <div className="container-fluid">
-                        <NavBar />
-                </div>
+                <Goose2 />
             );
         } else if (state.page === 'gooseX-page') {
             return (
