@@ -1,0 +1,54 @@
+/* 
+'sp' stands for sponsors in identifiers below
+'cont' stands for contact.
+*/
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+$spTxtClr: rgb(38, 37, 37);
+
+#spBackgrnd {
+    height: 740px;
+    background-image: url("http://placehold.it/1100x600");
+}
+
+#spTitleRow {
+    background: white;
+    position: relative;
+    height: 45px;
+}
+
+#spTitle { //the title 'Sponsors' - spTitle
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+
+#spContent {
+    background: white;
+    padding: 0px 150px 70px;
+    text-align: center;
+    margin-bottom: 40px;
+
+    h4 {
+        color: $spTxtClr;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    button {
+        @include border-radius(0);
+        background:  $spTxtClr;
+        color: white;
+        font-weight: bold;
+        outline: none;  
+    }
+}

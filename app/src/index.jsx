@@ -5,6 +5,7 @@ import Team from './components/team.jsx'
 import Goose1 from './components/goose1.jsx';
 import Goose2 from './components/goose2.jsx';
 import GooseX from './components/gooseX.jsx';
+import Sponsors from './components/sponsors.jsx';
 //BOOTSTRAP IMPORTS
 
 class App extends React.Component {
@@ -12,7 +13,7 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'goose2-page'
+            page: 'sponsors-page'
         }
     }
 
@@ -26,9 +27,7 @@ class App extends React.Component {
             return <Home onPageChange={this.handlePageChange.bind(this)} />;
         } else if (state.page === 'sponsors-page') {
             return (
-                <div className="container-fluid">
-                    <NavBar />
-                </div>
+                <Sponsors />
             );
         } else if (state.page === 'goose1-page') {
             return (
