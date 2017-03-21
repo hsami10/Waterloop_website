@@ -4,7 +4,7 @@ import NavBar from './navbar.jsx';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 
-export default class Sponsors extends React.Component {
+export class Sponsors extends React.Component {
     render() {
         return (
             <Grid>
@@ -20,5 +20,11 @@ export default class Sponsors extends React.Component {
                 </Row>
             </Grid>
         );
+    }
+}
+
+export class Contact extends React.Component {
+    render() {
+        return ;
     }
 }
