@@ -25,6 +25,18 @@ export class Sponsors extends React.Component {
 
 export class Contact extends React.Component {
     render() {
-        return ;
+        return (
+            <Grid>
+                <Row id="contBackgrnd">
+                    <NavBar />
+                </Row>
+                <Row id="contTitleRow">
+                    <h1 id="contTitle">CONTACT</h1>
+                </Row>
+                <Row id="contContent">
+
+                </Row>
+            </Grid>
+        );
     }
 }

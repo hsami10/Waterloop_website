@@ -128,16 +128,17 @@ you see classes below that have not been explicitly defined in the modules*/
 'sp' stands for sponsors in identifiers below
 'cont' stands for contact.
 */
-#spBackgrnd {
+/*sponsor page and contact page general styling*/
+#spBackgrnd, #contBackgrnd {
   height: 740px;
   background-image: url("http://placehold.it/1100x600"); }
 
-#spTitleRow {
+#spTitleRow, #contTitleRow {
   background: white;
   position: relative;
   height: 45px; }
 
-#spTitle {
+#spTitle, #contTitle {
   color: white;
   font-weight: 900;
   font-size: 50px;
@@ -163,6 +164,13 @@ you see classes below that have not been explicitly defined in the modules*/
     color: white;
     font-weight: bold;
     outline: none; }
+
+/*CONTACT PAGE STYLING*/
+#contContent {
+  background: white;
+  padding: 0 150px 70px;
+  text-align: center;
+  margin-bottom: 40px; }
 
 body {
   background: black; }

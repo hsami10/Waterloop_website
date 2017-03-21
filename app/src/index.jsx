@@ -5,8 +5,8 @@ import Team from './components/team.jsx'
 import Goose1 from './components/goose1.jsx';
 import Goose2 from './components/goose2.jsx';
 import GooseX from './components/gooseX.jsx';
-import { Sponsors } from './components/sponsors.jsx';
-import { Contact } from './components/sponsors.jsx'
+import { Sponsors } from './components/sponsors-contact.jsx';
+import { Contact } from './components/sponsors-contact.jsx'
 //BOOTSTRAP IMPORTS
 
 class App extends React.Component {

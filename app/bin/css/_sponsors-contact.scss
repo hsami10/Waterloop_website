@@ -12,18 +12,19 @@
 
 $spTxtClr: rgb(38, 37, 37);
 
-#spBackgrnd {
+/*sponsor page and contact page general styling*/
+#spBackgrnd, #contBackgrnd {
     height: 740px;
     background-image: url("http://placehold.it/1100x600");
 }
 
-#spTitleRow {
+#spTitleRow, #contTitleRow {
     background: white;
     position: relative;
     height: 45px;
 }
 
-#spTitle { //the title 'Sponsors' - spTitle
+#spTitle, #contTitle { //the title 'Sponsors' - spTitle
     color: white;
     font-weight: 900;
     font-size: 50px;
@@ -51,4 +52,13 @@ $spTxtClr: rgb(38, 37, 37);
         font-weight: bold;
         outline: none;  
     }
+}
+
+
+/*CONTACT PAGE STYLING*/
+#contContent {
+    background: white;
+    padding: 0 150px 70px;
+    text-align: center;
+    margin-bottom: 40px;
 }
