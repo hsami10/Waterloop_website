@@ -14,10 +14,16 @@ export default class NavBar extends React.Component {
         return (
             <Navbar inverse fixedTop collapseOnSelect id="navbar">
                 <Navbar.Header>
+                    <Navbar.Brand>
+                        <a href="#" id="navbar-brand">
+                            <Image alt="WATERLOOP" src={images + 'team-logo.png'} responsive />
+                        </a>
+                    </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
+
                 <Navbar.Collapse id="navbar-items">
-                    <Nav>
+                    <Nav pullRight>
                         <NavItem eventKey={2} href="#">Sponsors</NavItem>
                         <NavDropdown eventKey={3} title="Flock" id="basic-nav-dropdown">
                             <MenuItem eventKey={3.1}>Goose I</MenuItem>
@@ -25,13 +31,6 @@ export default class NavBar extends React.Component {
                             <MenuItem divider></MenuItem>
                             <MenuItem eventKey={3.3}>Goose X</MenuItem>
                         </NavDropdown>
-                    </Nav>
-                    <Navbar.Brand>
-                        <a href="#" id="navbar-brand">
-                            <Image alt="WATERLOOP" src={images + 'team-logo.png'} responsive/>
-                        </a>
-                    </Navbar.Brand>
-                    <Nav>
                         <NavItem eventKey={1} href="#">Team</NavItem>
                         <NavItem eventKey={2} href="#">Contact</NavItem>
                     </Nav>
