@@ -1,6 +1,9 @@
 import React from 'react';
 //BOOTSTRAP IMPORTS
 import { Navbar, Nav, NavItem, NavDropdown, DropdownButton, MenuItem, CollapsibleNav } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
+
+let images = '/app/bin/Images/'; //all images stored here
 
 export default class NavBar extends React.Component {
     handleSelect(e) {
@@ -24,7 +27,9 @@ export default class NavBar extends React.Component {
                         </NavDropdown>
                     </Nav>
                     <Navbar.Brand>
-                        <a href="#" id="navbar-brand">WATERLOOP</a>
+                        <a href="#" id="navbar-brand">
+                            <Image alt="WATERLOOP" src={images + 'team-logo.png'} responsive/>
+                        </a>
                     </Navbar.Brand>
                     <Nav>
                         <NavItem eventKey={1} href="#">Team</NavItem>

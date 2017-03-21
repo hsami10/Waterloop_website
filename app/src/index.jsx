@@ -9,12 +9,14 @@ import { Sponsors } from './components/sponsors-contact.jsx';
 import { Contact } from './components/sponsors-contact.jsx'
 //BOOTSTRAP IMPORTS
 
+let images = '/app/bin/Images/'; //all images stored here
+
 class App extends React.Component {
     constructor() {
         super();
 
         this.state = {
-            page: 'contact-page'
+            page: 'home-page'
         }
     }
 
