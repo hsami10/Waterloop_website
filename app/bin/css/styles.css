@@ -1,85 +1,177 @@
 /*
-Error: wrong number of arguments (4 for 3) for `rgb'
-        on line 4 of _navbar.scss
-        from line 11 of styles.scss
-
-1: /*
-2: SASS tings: 
-3: Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators
-4: *\/
-5: 
-6: /*Some below (such as .thumbnail) are classes that you would use in regular
-7: bootstrap in your HTML, not react-bootstrap (.thumbnail becomes <Thumbnail/>). The
-8: react components are compiled by Babel into regular HTML and javascript. That is why
-9: you see classes below that have not been explicitly defined in the modules*\/
-
-Backtrace:
-_navbar.scss:4
-styles.scss:11
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/tree/funcall.rb:310:in `reformat_argument_error'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/tree/funcall.rb:149:in `rescue in _perform'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/tree/funcall.rb:123:in `_perform'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `map'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+SASS tings: 
+Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: wrong number of arguments (4 for 3) for `rgb'\A         on line 4 of _navbar.scss\A         from line 11 of styles.scss\A \A 1: /*\A 2: SASS tings: \A 3: Variables, Nesting, Partials, Imports, Mixins, Extend/Inheritance, Operators\A 4: */\A 5: \A 6: /*Some below (such as .thumbnail) are classes that you would use in regular\A 7: bootstrap in your HTML, not react-bootstrap (.thumbnail becomes <Thumbnail/>). The\A 8: react components are compiled by Babel into regular HTML and javascript. That is why\A 9: you see classes below that have not been explicitly defined in the modules*/"; }
+/*Some below (such as .thumbnail) are classes that you would use in regular
+bootstrap in your HTML, not react-bootstrap (.thumbnail becomes <Thumbnail/>). The
+react components are compiled by Babel into regular HTML and javascript. That is why
+you see classes below that have not been explicitly defined in the modules*/
+#navbar {
+  padding: 15px 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: right; }
+
+#navbar-brand {
+  padding: 15px;
+  margin-left: 0px; }
+
+#navbar-items {
+  width: 45%;
+  margin: auto;
+  float: none;
+  /*padding: 0 30%;*/ }
+
+/* First Face */
+#homeFirstFace {
+  text-align: center; }
+
+.homeFirstFace, #homeMidFace > div {
+  margin-bottom: 20px; }
+
+#goose2LrnMore-btn {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  outline: none;
+  color: #4e96c9;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgba(40, 112, 163, 0.3);
+  border: none;
+  border-bottom: thick solid #206393; }
+
+/* MIDFACE n ENDFACE*/
+.homeTitles {
+  margin-top: 60px;
+  color: #39abff;
+  font-size: 30px;
+  font-weight: 900; }
+
+.watchVidPrompts {
+  color: white;
+  font-size: 23px;
+  font-weight: 550; }
+
+#teamBackground {
+  height: 700px;
+  background-image: url("http://placehold.it/1100x600"); }
+
+#captainRow {
+  background: white;
+  position: relative;
+  height: 320px; }
+
+#ourTeamTitle {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: -160px; }
+
+#captainJake {
+  float: none;
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -110px; }
+
+#membersWrapper {
+  background: white; }
+
+/*the Thumbnail component translates into the thumbnail class in regular bootstrap*/
+.thumbnail {
+  border: none;
+  text-align: center; }
+
+#g1Backgrnd, #gXBackgrnd, #g2Backgrnd {
+  height: 740px;
+  background-image: url("http://placehold.it/1100x600"); }
+
+#g1TitleRow, #gXTitleRow, #g2TitleRow {
+  background: white;
+  position: relative;
+  height: 35px; }
+
+#g1Title, #gXTitle, #g2Title {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: -200px; }
+
+#g1Content, #gXContent, #g2Content {
+  background: white;
+  padding: 0px 150px 70px;
+  text-align: center;
+  margin-bottom: 40px; }
+  #g1Content p, #gXContent p, #g2Content p {
+    color: #9e9e9e;
+    margin-bottom: 35px;
+    text-align: left; }
+  #g1Content h2, #gXContent h2, #g2Content h2 {
+    color: #333333;
+    font-weight: 800;
+    margin-bottom: 35px; }
+  #g1Content h3, #gXContent h3, #g2Content h3 {
+    color: #333333;
+    margin-bottom: 35px;
+    text-align: left; }
+  #g1Content img, #gXContent img, #g2Content img {
+    margin: 0 auto 35px; }
+
+/* 
+'sp' stands for sponsors in identifiers below
+'cont' stands for contact.
+*/
+/*sponsor page and contact page general styling*/
+#spBackgrnd, #contBackgrnd {
+  height: 740px;
+  background-image: url("http://placehold.it/1100x600"); }
+
+#spTitleRow, #contTitleRow {
+  background: white;
+  position: relative;
+  height: 45px; }
+
+#spTitle, #contTitle {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: -200px; }
+
+#spContent {
+  background: white;
+  padding: 0px 150px 70px;
+  text-align: center;
+  margin-bottom: 40px; }
+  #spContent h4 {
+    color: #262525;
+    margin-bottom: 35px;
+    text-align: center; }
+  #spContent button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    background: #262525;
+    color: white;
+    font-weight: bold;
+    outline: none; }
+
+/*CONTACT PAGE STYLING*/
+#contContent {
+  background: white;
+  padding: 0 150px 70px;
+  margin-bottom: 40px; }
+
+body {
+  background: black; }
+
+/*# sourceMappingURL=styles.css.map */
