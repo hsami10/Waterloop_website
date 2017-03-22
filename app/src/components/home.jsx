@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import NavBar from './navbar.jsx';
 //BOOTSTRAP IMPORTS
 import {Grid, Row, Col} from 'react-bootstrap';
@@ -86,3 +87,7 @@ class EndFace extends React.Component {
         );
     }
 }
+
+
+
+ReactDOM.render(<Home />, document.getElementById('root'));

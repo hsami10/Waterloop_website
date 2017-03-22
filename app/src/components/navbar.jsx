@@ -6,16 +6,13 @@ import { Image } from 'react-bootstrap';
 let images = '/app/bin/Images/'; //all images stored here
 
 export default class NavBar extends React.Component {
-    handleSelect(e) {
-        this.props.onPageChange;
-    }
 
     render() {
         return (
             <Navbar inverse fixedTop collapseOnSelect id="navbar">
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#" id="navbar-brand">
+                        <a href="/app/src/components/home" id="navbar-brand">
                             <Image alt="WATERLOOP" src={images + 'team-logo.png'} responsive />
                         </a>
                     </Navbar.Brand>
@@ -31,7 +28,7 @@ export default class NavBar extends React.Component {
                             <MenuItem divider></MenuItem>
                             <MenuItem eventKey={3.3}>Goose X</MenuItem>
                         </NavDropdown>
-                        <NavItem eventKey={1} href="#">Team</NavItem>
+                        <NavItem eventKey={1} href="/app/src/components/team.jsx">Team</NavItem>
                         <NavItem eventKey={2} href="#">Contact</NavItem>
                     </Nav>
                 </Navbar.Collapse>

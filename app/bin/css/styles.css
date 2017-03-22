@@ -18,8 +18,7 @@ you see classes below that have not been explicitly defined in the modules*/
 
 #navbar-items {
   margin: auto;
-  float: none;
-  /*padding: 0 30%;*/ }
+  float: none; }
   #navbar-items a {
     font-size: 17px; }
 

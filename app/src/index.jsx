@@ -16,7 +16,7 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'contact-page'
+            page: 'goose1-page'
         }
     }
 
