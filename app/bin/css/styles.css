@@ -169,6 +169,10 @@ you see classes below that have not been explicitly defined in the modules*/
   background: white;
   padding: 0 150px 70px;
   margin-bottom: 40px; }
+  #contContent h2 {
+    font-weight: 700; }
+  #contContent h4 {
+    color: #6a6a6a; }
 
 .fmSubmit {
   -webkit-border-radius: 0;
