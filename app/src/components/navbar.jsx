@@ -12,7 +12,7 @@ export default class NavBar extends React.Component {
             <Navbar inverse fixedTop collapseOnSelect id="navbar">
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="/app/src/components/home" id="navbar-brand">
+                        <a onSele id="navbar-brand">
                             <Image alt="WATERLOOP" src={images + 'team-logo.png'} responsive />
                         </a>
                     </Navbar.Brand>

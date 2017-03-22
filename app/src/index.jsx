@@ -12,7 +12,7 @@ import { Contact } from './components/sponsors-contact.jsx'
 let images = '/app/bin/Images/'; //all images stored here
 
 class App extends React.Component {
-    constructor() {
+    constructor(props) {
         super(props);
 
         this.state = {
@@ -21,7 +21,7 @@ class App extends React.Component {
     }
 
     handlePageChange(e) {
-        this.setState({ page: name });
+        this.setState({ page: name + '-page' });
     }
 
     render() {
@@ -32,11 +32,11 @@ class App extends React.Component {
             );
         } else if (state.page === 'sponsors-page') {
             return (
-                <Sponsors />
+                <Sponsors onPageChange={this.handlePageChange.bind(this)}/>
             );
         } else if (state.page === 'goose1-page') {
             return (
-                <Goose1 />
+                <Goose1 onPageChange={this.handlePageChange.bind(this)}/>
             );
         } else if (state.page === 'goose2-page') {
             return (
