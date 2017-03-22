@@ -5,11 +5,16 @@ $g1MarginContent: 35px;
 %gooseBackgrndProps {
     height: 740px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
-#g1Backgrnd, #gXBackgrnd, #g2Backgrnd {
+#g1Backgrnd {
+    @extend %gooseBackgrndProps;
+    background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');
+}
+
+#g2Backgrnd {
     @extend %gooseBackgrndProps;
     background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');
 }
