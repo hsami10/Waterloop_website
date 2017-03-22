@@ -7,7 +7,7 @@ bootstrap in your HTML, not react-bootstrap (.thumbnail becomes <Thumbnail/>). T
 react components are compiled by Babel into regular HTML and javascript. That is why
 you see classes below that have not been explicitly defined in the modules*/
 #navbar {
-  padding: 15px 0;
+  padding: 20px 0;
   border: none;
   background: rgba(0, 0, 0, 0.5);
   text-align: right; }
@@ -89,7 +89,7 @@ you see classes below that have not been explicitly defined in the modules*/
 
 #g1Backgrnd, #gXBackgrnd, #g2Backgrnd {
   height: 740px;
-  background-image: url("http://placehold.it/1500x600"); }
+  background-image: url("/app/bin/Images/flock-imgs/train-side.jpg"); }
 
 #g1TitleRow, #gXTitleRow, #g2TitleRow {
   background: white;

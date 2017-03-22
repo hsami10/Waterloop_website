@@ -9,10 +9,10 @@ export default class NavBar extends React.Component {
 
     render() {
         return (
-            <Navbar inverse fixedTop collapseOnSelect id="navbar">
+            <Navbar inverse fixedTop collapseOnSelect id="navbar" onSelect={this.props.onClick}>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a onSele id="navbar-brand">
+                        <a href="" onClick={this.props.onPageCh} id="navbar-brand">
                             <Image alt="WATERLOOP" src={images + 'team-logo.png'} responsive />
                         </a>
                     </Navbar.Brand>

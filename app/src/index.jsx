@@ -21,7 +21,7 @@ class App extends React.Component {
     }
 
     handlePageChange(e) {
-        this.setState({ page: name + '-page' });
+        this.setState({ page: e + '-page' });
     }
 
     render() {

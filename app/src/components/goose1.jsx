@@ -4,12 +4,14 @@ import NavBar from './navbar.jsx';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 
+let images = '/app/bin/Images/'; //all images stored here
+
 export default class Goose1 extends React.Component {
     render() {
         return (
             <Grid fluid>
                 <Row id="g1Backgrnd">
-                    <NavBar onClick={this.props.onPageChange}/>
+                    <NavBar onPageCh={this.props.onPageChange}/>
                 </Row>
                 <Row id="g1TitleRow">
                     <h1 id="g1Title">INITIAL PROTOTYPE: <br />GOOSE I</h1>
@@ -23,7 +25,7 @@ export default class Goose1 extends React.Component {
                         consetetur duo. Cu per labores eligendi neglegentur, eam in denique suscipit convenire.</p>
                     </Row>
                     <Row>
-                        <Image src='http://placehold.it/900x600' responsive/>
+                        <Image src={images + 'flock-imgs/shell.jpg'} responsive/>
                         <h2>POD SHELL</h2>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece
@@ -31,9 +33,8 @@ export default class Goose1 extends React.Component {
                         consetetur duo. Cu per labores eligendi neglegentur, eam in denique suscipit convenire.</p>
                     </Row>
                     <Row>
-                        <Image src='http://placehold.it/900x600' responsive/>
+                        <Image src={images + 'flock-imgs/levitation.png'} responsive/>
                         <h2>LEVITATION SYSTEM</h2>
-                        <Image src='http://placehold.it/900x600' responsive/>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece
                         veritus. Quot unum efficiantur ex eum. Meis summo repudiare ius te, cu ignota doctus
@@ -45,30 +46,30 @@ export default class Goose1 extends React.Component {
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece
                         veritus. Quot unum efficiantur ex eum. Meis summo repudiare ius te, cu ignota doctus
                         consetetur duo. Cu per labores eligendi neglegentur, eam in denique suscipit convenire.</p>
-                        <Image src='http://placehold.it/900x600' responsive/>
+                        <Image src={images + 'flock-imgs/eddy-brake.png'} responsive/>
                         <h3>EDDY CURRENT BRAKING</h3>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece
                         veritus. Quot unum efficiantur ex eum. Meis summo repudiare ius te, cu ignota doctus.</p>
-                        <Image src='http://placehold.it/900x600' responsive/>
+                        <Image src={images + 'flock-imgs/friction-brake.png'} responsive/>
                         <h3>FRICTION BRAKING</h3>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece.</p>
-                        <Image src='http://placehold.it/900x600' responsive/>
                     </Row>
                     <Row>
+                        <Image src={images + 'flock-imgs/lateral.png'} responsive/>
                         <h2>LATERAL CONTROL</h2>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece.</p>
-                        <Image src='http://placehold.it/900x600' responsive/>
                     </Row>
                     <Row>
+                        <Image src={images + 'flock-imgs/drive-train.png'} responsive/>                        
                         <h2>DRIVE TRAIN</h2>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece.</p>
-                        <Image src='http://placehold.it/900x600' responsive/>
                     </Row>
                     <Row>
+                        <Image src={images + 'flock-imgs/elec-embedded.jpg'} responsive/>
                         <h2>ELECTRICAL AND EMBEDDED SYSTEMS</h2>
                         <h3>ELECTRICAL</h3>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
