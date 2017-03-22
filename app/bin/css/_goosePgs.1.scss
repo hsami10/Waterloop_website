@@ -5,6 +5,9 @@ $g1MarginContent: 35px;
 #g1Backgrnd, #gXBackgrnd, #g2Backgrnd {
     height: 740px;
     background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');
+    /*background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;*/
 }
 
 #g1TitleRow, #gXTitleRow, #g2TitleRow {
