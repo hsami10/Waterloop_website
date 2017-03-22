@@ -61,3 +61,11 @@ $spTxtClr: rgb(38, 37, 37);
     padding: 0 150px 70px;
     margin-bottom: 40px;
 }
+
+.fmSubmit {
+    @include border-radius(0);
+    background:  $spTxtClr;
+    color: white;
+    font-weight: bold;
+    outline: none; 
+}

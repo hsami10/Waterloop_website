@@ -170,6 +170,16 @@ you see classes below that have not been explicitly defined in the modules*/
   padding: 0 150px 70px;
   margin-bottom: 40px; }
 
+.fmSubmit {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  background: #262525;
+  color: white;
+  font-weight: bold;
+  outline: none; }
+
 body {
   background: black; }
 
