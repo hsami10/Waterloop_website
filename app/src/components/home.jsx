@@ -16,7 +16,7 @@ let images = '/app/bin/Images/'; //all images stored here
 export default class Home extends React.Component {
     render() {
         return (
-            <Grid fluid>
+            <Grid >
                 <NavBar onPageChange={this.props.onPageChange} />
                 <FirstFace />
                 <MidFace />
@@ -32,7 +32,7 @@ class FirstFace extends React.Component {
             <Row>
                 <Col id="homeFirstFace">
                     <div id="homeFirstFace-image" className="homeFirstFace">
-                        <Image src='http://placehold.it/1100x600' responsive />
+                        <Image src='http://placehold.it/1100x600' responsive/>
                     </div>
                     <Button bsSize="lg" id="goose2LrnMore-btn" className="homeFirstFace">
                         Goose II - Learn More

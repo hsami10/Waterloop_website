@@ -89,7 +89,7 @@ you see classes below that have not been explicitly defined in the modules*/
 
 #g1Backgrnd, #gXBackgrnd, #g2Backgrnd {
   height: 740px;
-  background-image: url("http://placehold.it/1100x600"); }
+  background-image: url("http://placehold.it/1500x600"); }
 
 #g1TitleRow, #gXTitleRow, #g2TitleRow {
   background: white;
@@ -106,7 +106,7 @@ you see classes below that have not been explicitly defined in the modules*/
 
 #g1Content, #gXContent, #g2Content {
   background: white;
-  padding: 0px 150px 70px;
+  padding: 0px 22% 70px;
   text-align: center;
   margin-bottom: 40px; }
   #g1Content p, #gXContent p, #g2Content p {
