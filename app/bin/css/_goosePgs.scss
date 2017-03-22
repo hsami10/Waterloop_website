@@ -2,12 +2,21 @@ $g1HeadingsColor: rgb(51, 51, 51);
 $g1TextColor: rgb(158, 158, 158);
 $g1MarginContent: 35px;
 
-#g1Backgrnd, #gXBackgrnd, #g2Backgrnd {
+%gooseBackgrndProps {
     height: 740px;
-    background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+#g1Backgrnd, #gXBackgrnd, #g2Backgrnd {
+    @extend %gooseBackgrndProps;
+    background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');
+}
+
+#gXBackgrnd {
+    @extend %gooseBackgrndProps;
+    background-image: url('/app/bin/Images/flock-imgs/gX-backgrnd.jpg');
 }
 
 #g1TitleRow, #gXTitleRow, #g2TitleRow {

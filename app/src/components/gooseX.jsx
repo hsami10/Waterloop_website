@@ -4,6 +4,8 @@ import NavBar from './navbar.jsx';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 
+let images = '/app/bin/Images/'; //all images stored here
+
 export default class GooseX extends React.Component {
     render() {
         return (
@@ -22,7 +24,7 @@ export default class GooseX extends React.Component {
                         consetetur duo. Cu per labores eligendi neglegentur, eam in denique suscipit convenire.</p>
                     </Row>
                     <Row>
-                        <Image src='http://placehold.it/900x600' responsive/>
+                        <Image src={images + 'flock-imgs/gX-extDesign.jpg'} responsive/>
                         <h2>EXTERIOR DESIGN</h2>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece
@@ -30,7 +32,7 @@ export default class GooseX extends React.Component {
                         consetetur duo. Cu per labores eligendi neglegentur, eam in denique suscipit convenire.</p>
                     </Row>
                     <Row>
-                        <Image src='http://placehold.it/900x600' responsive/>
+                        <Image src={images + 'flock-imgs/gX-intDesign.jpg'} responsive/>
                         <h2>INTERIOR DESIGN</h2>
                         <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
                         incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece

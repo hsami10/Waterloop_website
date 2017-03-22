@@ -4,6 +4,8 @@ import NavBar from './navbar.jsx';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 
+let images = '/app/bin/Images/'; //all images stored here
+
 export default class Goose2 extends React.Component {
     render() {
         return (
