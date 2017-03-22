@@ -13,14 +13,14 @@ let images = '/app/bin/Images/'; //all images stored here
 
 class App extends React.Component {
     constructor() {
-        super();
+        super(props);
 
         this.state = {
-            page: 'goose1-page'
+            page: 'home-page'
         }
     }
 
-    handlePageChange(name) {
+    handlePageChange(e) {
         this.setState({ page: name });
     }
 
