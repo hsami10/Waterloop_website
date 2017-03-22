@@ -74,7 +74,7 @@ export class Contact extends React.Component {
                             <Button className="fmSubmit">SUBMIT</Button>
                         </form>
                     </Row>
-
+                    <br />
                     <Row>
                         <h2>JOIN THE TEAM</h2>
                         <h4>Interested in joining the team? Get in touch below!</h4><br />
@@ -135,7 +135,7 @@ export class Contact extends React.Component {
                                 </FormControl>
                             </FormGroup>
 
-                            <Button classNam="fmSubmit">SUBMIT</Button>
+                            <Button className="fmSubmit">SUBMIT</Button>
                         </form>
                     </Row>
                 </Row>
