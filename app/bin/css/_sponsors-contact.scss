@@ -10,12 +10,19 @@
     border-radius: $radius;
 }
 
+%spBackgrndProps {
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 $spTxtClr: rgb(38, 37, 37);
 
 /*sponsor page and contact page general styling*/
 #spBackgrnd, #contBackgrnd {
-    height: 740px;
-    background-image: url("http://placehold.it/1100x600");
+    @extend %spBackgrndProps;
+    background-image: url("/app/bin/Images/flock-imgs/train-side.jpg");
 }
 
 #spTitleRow, #contTitleRow {

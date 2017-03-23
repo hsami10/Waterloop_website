@@ -8,7 +8,7 @@ import { Form, FormControl, ControlLabel, FormGroup, HelpBlock, Checkbox } from 
 export class Sponsors extends React.Component {
     render() {
         return (
-            <Grid>
+            <Grid fluid>
                 <Row id="spBackgrnd">
                     <NavBar />
                 </Row>
@@ -29,7 +29,7 @@ let currentTerm = 'Winter 17\'';
 export class Contact extends React.Component {
     render() {
         return (
-            <Grid>
+            <Grid fluid>
                 <Row id="contBackgrnd">
                     <NavBar />
                 </Row>

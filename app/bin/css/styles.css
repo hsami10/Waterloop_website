@@ -146,10 +146,15 @@ you see classes below that have not been explicitly defined in the modules*/
 'sp' stands for sponsors in identifiers below
 'cont' stands for contact.
 */
-/*sponsor page and contact page general styling*/
 #spBackgrnd, #contBackgrnd {
   height: 740px;
-  background-image: url("http://placehold.it/1100x600"); }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+/*sponsor page and contact page general styling*/
+#spBackgrnd, #contBackgrnd {
+  background-image: url("/app/bin/Images/flock-imgs/train-side.jpg"); }
 
 #spTitleRow, #contTitleRow {
   background: white;
