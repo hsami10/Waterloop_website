@@ -31,16 +31,28 @@
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    top: -110px;
+    top: -130px;
+    bottom: -130px;
+
+    .caption { //the div that holds the caption and subcaption (h3/h4 tags)
+        position: relative;
+        top: -65px;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+    }
 }
 
 #membersWrapper {
     background: white;
+    margin-bottom: 70px;
+    padding: 0 15% 70px;
 }
 
 /*the Thumbnail component translates into the thumbnail class in regular bootstrap*/
 .thumbnail {
-    border: none;
+    border: 1px solid black;
     text-align: center;
 }
 
