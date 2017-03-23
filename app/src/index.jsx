@@ -20,10 +20,6 @@ class App extends React.Component {
         }
     }
 
-    handlePageChange(e) {
-        this.setState({ page: e + '-page' });
-    }
-
     render() {
         const state = this.state;
         if (state.page === 'home-page') {
@@ -32,11 +28,11 @@ class App extends React.Component {
             );
         } else if (state.page === 'sponsors-page') {
             return (
-                <Sponsors onPageChange={this.handlePageChange.bind(this)}/>
+                <Sponsors onPageChange={this.handlePageChange.bind(this)} />
             );
         } else if (state.page === 'goose1-page') {
             return (
-                <Goose1 onPageChange={this.handlePageChange.bind(this)}/>
+                <Goose1 onPageChange={this.handlePageChange.bind(this)} />
             );
         } else if (state.page === 'goose2-page') {
             return (
@@ -47,7 +43,9 @@ class App extends React.Component {
                 <GooseX />
             );
         } else if (state.page === 'team-page') {
-            return <Team />;
+            return (
+                <Team />
+            );
         } else if (state.page === 'contact-page') {
             return (
                 <Contact />
