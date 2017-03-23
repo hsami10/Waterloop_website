@@ -28,6 +28,7 @@
 #captainJake {
     float: none;
     position: relative;
+    padding: 0 5%;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -48,12 +49,30 @@
     background: white;
     margin-bottom: 70px;
     padding: 0 15% 70px;
+    float: none;
 }
 
 /*the Thumbnail component translates into the thumbnail class in regular bootstrap*/
 .thumbnail {
-    border: 1px solid black;
+    border: none;
     text-align: center;
+    height: 250px;
+
+    .caption { //the div that holds the caption and subcaption (h3/h4 tags)
+        position: relative;
+        top: -65px;
+    }
+
+    h3 {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        color: #39abff;
+        font-weight: bold;
+    }
 }
 
 

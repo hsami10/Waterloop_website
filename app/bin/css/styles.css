@@ -86,6 +86,7 @@ you see classes below that have not been explicitly defined in the modules*/
 #captainJake {
   float: none;
   position: relative;
+  padding: 0 5%;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -100,12 +101,24 @@ you see classes below that have not been explicitly defined in the modules*/
 #membersWrapper {
   background: white;
   margin-bottom: 70px;
-  padding: 0 15% 70px; }
+  padding: 0 15% 70px;
+  float: none; }
 
 /*the Thumbnail component translates into the thumbnail class in regular bootstrap*/
 .thumbnail {
-  border: 1px solid black;
-  text-align: center; }
+  border: none;
+  text-align: center;
+  height: 250px; }
+  .thumbnail .caption {
+    position: relative;
+    top: -65px; }
+  .thumbnail h3 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .thumbnail h4 {
+    color: #39abff;
+    font-weight: bold; }
 
 #g1Backgrnd, #g2Backgrnd, #gXBackgrnd {
   height: 740px;
