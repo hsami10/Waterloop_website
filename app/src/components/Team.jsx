@@ -108,7 +108,25 @@ class CreateItems extends React.Component {
 //Item finally creates a Bootstrap Thumbnail based on the props it receives.
 class Item extends React.Component {
     render() {
-        if (this.props.id) { //if id is passed, pass it on to the component. Used with Jake's component so his can be styled.
+        if (this.props.id && this.props.title.indexOf("Lead") >= 0) { //if id is passed, pass it on to the component. Used with Jake's component so his can be styled.
+            return (
+                <Col lg={3} md={4} id={this.props.id} className="leads">
+                    <Thumbnail src={this.props.image} alt="200x200">
+                        <h3>{this.props.name}</h3>
+                        <h4>{this.props.title}</h4>
+                    </Thumbnail>
+                </Col>
+            );
+        } else if (this.props.title.indexOf("Lead") >= 0) {
+            return (
+                <Col lg={3} md={4} className="leads">
+                    <Thumbnail src={this.props.image} alt="200x200">
+                        <h3>{this.props.name}</h3>
+                        <h4>{this.props.title}</h4>
+                    </Thumbnail>
+                </Col>
+            );
+        } else if (this.props.id) {
             return (
                 <Col lg={3} md={4} id={this.props.id}>
                     <Thumbnail src={this.props.image} alt="200x200">
