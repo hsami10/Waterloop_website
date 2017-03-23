@@ -56,6 +56,10 @@ you see classes below that have not been explicitly defined in the modules*/
   font-size: 23px;
   font-weight: 550; }
 
+#alignRtBlock {
+  text-align: right;
+  padding-top: 80px; }
+
 #teamBackground {
   height: 700px;
   background-image: url("http://placehold.it/1100x600"); }

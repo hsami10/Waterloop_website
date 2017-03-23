@@ -57,7 +57,7 @@ class MidFace extends React.Component {
                     <div className="watchVidPrompts">Watch the University Video <span>&rarr;</span></div>
                     <br />
                     <div>
-                        <img src="http://placehold.it/650x450" alt="palceholder" />
+                        <img src="http://placehold.it/950x450" alt="palceholder" />
                     </div>
                 </Col>
             </Row>
@@ -69,12 +69,12 @@ class EndFace extends React.Component {
     render() {
         return (
             <Row>
-                <Col>
+                <Col id="alignRtBlock">
                     <div className="homeTitles">WHAT IS WATERLOOP?</div>
                     <br />
-                    <div className="watchVidPrompts" style={{ marginBottom: '20px' }}>Watch the Video <span>&rarr;</span></div>
+                    <div className="watchVidPrompts" style={{ marginBottom: '20px' }}><span>&larr;</span> Watch the Video</div>
                     <div>
-                        <img src="http://placehold.it/650x450" alt="placeholder" />
+                        <img src="http://placehold.it/950x450" alt="placeholder" />
                     </div>
                 </Col>
             </Row>
