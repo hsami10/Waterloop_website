@@ -3,10 +3,6 @@
     border: none;
     background: rgba(0, 0, 0, 0.5);
     text-align: right;
-
-    a {
-       font-weight: bold; 
-    }
 }
 
 #navbar-brand {
@@ -21,4 +17,9 @@
     a {
         font-size: 17px;
     }
+}
+
+//makes sure dropdown menu items are not bolded.
+#navbar-items > ul > li > a {
+    font-weight: bold;
 }

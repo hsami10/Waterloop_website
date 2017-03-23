@@ -11,8 +11,6 @@ you see classes below that have not been explicitly defined in the modules*/
   border: none;
   background: rgba(0, 0, 0, 0.5);
   text-align: right; }
-  #navbar a {
-    font-weight: bold; }
 
 #navbar-brand {
   margin-top: -15px;
@@ -23,6 +21,9 @@ you see classes below that have not been explicitly defined in the modules*/
   float: none; }
   #navbar-items a {
     font-size: 17px; }
+
+#navbar-items > ul > li > a {
+  font-weight: bold; }
 
 /* First Face */
 #homeFirstFace {
