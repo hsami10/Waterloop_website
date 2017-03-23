@@ -72,7 +72,7 @@ let members = [
 export default class Team extends React.Component {
     render() {
         return (
-            <Grid>
+            <Grid fluid>
                 <Row id="teamBackground">
                     <NavBar />
                 </Row>

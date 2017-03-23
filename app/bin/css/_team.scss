@@ -1,7 +1,13 @@
+%teamBackgrndProps {
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 #teamBackground {
-    height: 700px;
-    background-image: url("http://placehold.it/1100x600");
+    @extend %teamBackgrndProps;
+    background-image: url("/app/bin/Images/team-photo.jpg");
 }
 
 #captainRow {
@@ -16,7 +22,7 @@
     font-size: 50px;
     text-align: center;
     position: relative;
-    top: -160px;
+    top: -180px;
 }
 
 #captainJake {
