@@ -91,6 +91,8 @@ you see classes below that have not been explicitly defined in the modules*/
   margin-left: auto;
   margin-right: auto;
   top: -130px; }
+  #captainJake img {
+    box-shadow: 0 7px 20px #3499e4; }
 
 #membersWrapper {
   background: white;
@@ -104,16 +106,21 @@ you see classes below that have not been explicitly defined in the modules*/
   border: none;
   text-align: center;
   height: 250px; }
+  .thumbnail img {
+    box-shadow: 0 0 15px grey; }
   .thumbnail .caption {
     position: relative;
     top: -65px; }
-  .thumbnail h3 {
-    color: white;
-    font-weight: 700;
-    margin-bottom: 20px; }
-  .thumbnail h4 {
-    color: #39abff;
-    font-weight: bold; }
+    .thumbnail .caption h3 {
+      color: white;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    .thumbnail .caption h4 {
+      color: #3499e4;
+      font-weight: bold; }
+
+.leads img {
+  box-shadow: 0 5px 17px #3499e4; }
 
 #g1Backgrnd, #g2Backgrnd, #gXBackgrnd {
   height: 740px;

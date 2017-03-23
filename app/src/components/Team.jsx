@@ -23,7 +23,12 @@ let members = [
     },
     {
         name: "Luca Wilmer",
-        title: "Structures Lead",
+        title: "Structures ",
+        image: placeholder
+    },
+    {
+        name: "Luca Wilmer",
+        title: "Structures",
         image: placeholder
     },
     {
@@ -33,7 +38,7 @@ let members = [
     },
     {
         name: "Luca Wilmer",
-        title: "Structures Lead",
+        title: "Structures",
         image: placeholder
     },
     {
@@ -43,27 +48,22 @@ let members = [
     },
     {
         name: "Luca Wilmer",
-        title: "Structures Lead",
+        title: "Structures",
         image: placeholder
     },
     {
         name: "Luca Wilmer",
-        title: "Structures Lead",
+        title: "Structures",
         image: placeholder
     },
     {
         name: "Luca Wilmer",
-        title: "Structures Lead",
+        title: "Structures",
         image: placeholder
     },
     {
         name: "Luca Wilmer",
-        title: "Structures Lead",
-        image: placeholder
-    },
-    {
-        name: "Luca Wilmer",
-        title: "Structures Lead",
+        title: "Structures",
         image: placeholder
     },
 ];

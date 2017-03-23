@@ -5,6 +5,8 @@
     background-position: center;
 }
 
+$memberTitleCol: #3499e4;
+
 #teamBackground {
     @extend %teamBackgrndProps;
     background-image: url("/app/bin/Images/team-photo.jpg");
@@ -32,7 +34,11 @@
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    top: -130px;
+    top: -130px;    
+
+    img {
+        box-shadow: 0 7px 20px $memberTitleCol;
+    }
 }
 
 #membersWrapper {
@@ -49,21 +55,30 @@
     text-align: center;
     height: 250px;
 
+    img {
+        box-shadow: 0 0 15px grey;
+    }
+
     .caption { //the div that holds the caption and subcaption (h3/h4 tags)
         position: relative;
         top: -65px;
-    }
 
-    h3 {
+        h3 {
         color: white;
         font-weight: 700;
         margin-bottom: 20px;
-    }
+        }
 
-    h4 {
-        color: #39abff;
-        font-weight: bold;
+        h4 {
+            color: $memberTitleCol;
+            font-weight: bold;
+        }
     }
 }
 
+.leads {
+    img {
+        box-shadow: 0 5px 17px $memberTitleCol;
+    }
+}
 
