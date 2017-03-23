@@ -11,6 +11,7 @@ import { Contact } from './components/sponsors-contact.jsx'
 
 let images = '/app/bin/Images/'; //all images stored here
 
+//This component is pretty useless. I had plans for it first.
 class App extends React.Component {
     constructor(props) {
         super(props);
