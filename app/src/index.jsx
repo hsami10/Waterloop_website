@@ -16,7 +16,7 @@ class App extends React.Component {
         super(props);
 
         this.state = {
-            page: 'sponsors-page'
+            page: 'contact-page'
         }
     }
 
@@ -24,15 +24,15 @@ class App extends React.Component {
         const state = this.state;
         if (state.page === 'home-page') {
             return (
-                <Home onPageChange={this.handlePageChange.bind(this)} />
+                <Home />
             );
         } else if (state.page === 'sponsors-page') {
             return (
-                <Sponsors onPageChange={this.handlePageChange.bind(this)} />
+                <Sponsors />
             );
         } else if (state.page === 'goose1-page') {
             return (
-                <Goose1 onPageChange={this.handlePageChange.bind(this)} />
+                <Goose1 />
             );
         } else if (state.page === 'goose2-page') {
             return (

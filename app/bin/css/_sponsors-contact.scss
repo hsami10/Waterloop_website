@@ -32,7 +32,7 @@ $spTxtClr: rgb(38, 37, 37);
 }
 
 #spTitle, #contTitle { //the title 'Sponsors' - spTitle
-    color: #39abff;
+    color: white;
     font-weight: 900;
     font-size: 50px;
     text-align: center;
@@ -42,7 +42,7 @@ $spTxtClr: rgb(38, 37, 37);
 
 #spContent {
     background: white;
-    padding: 0px 150px 70px;
+    padding: 0px 22% 70px;
     text-align: center;
     margin-bottom: 40px;
 
@@ -65,7 +65,7 @@ $spTxtClr: rgb(38, 37, 37);
 /*CONTACT PAGE STYLING*/
 #contContent {
     background: white;
-    padding: 0 150px 70px;
+    padding: 0 22% 70px;
     margin-bottom: 40px;
 
     h2 {
