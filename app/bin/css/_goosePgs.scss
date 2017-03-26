@@ -53,6 +53,11 @@ $g1MarginContent: 35px;
         letter-spacing: 1.35px;
         line-height: 27px;
     }
+    p::selection {
+        color: white;
+        background: black;
+        border-radius: 5px;
+    }
 
     h2 {
         color: $g1HeadingsColor;

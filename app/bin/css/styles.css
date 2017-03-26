@@ -162,6 +162,10 @@ you see classes below that have not been explicitly defined in the modules*/
     font-size: 15px;
     letter-spacing: 1.35px;
     line-height: 27px; }
+  #g1Content p::selection, #gXContent p::selection, #g2Content p::selection {
+    color: white;
+    background: black;
+    border-radius: 5px; }
   #g1Content h2, #gXContent h2, #g2Content h2 {
     color: #333333;
     font-weight: 800;
