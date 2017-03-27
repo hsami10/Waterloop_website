@@ -11,7 +11,7 @@ export default class Goose1 extends React.Component {
         return (
             <Grid fluid>
                 <Row id="g1Backgrnd">
-                    <NavBar onPageCh={this.props.onPageChange} />
+                    <NavBar/>
                 </Row>
                 <Row id="g1TitleRow">
                     <h1 id="g1Title">INITIAL PROTOTYPE: <br />GOOSE I</h1>
