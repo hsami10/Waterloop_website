@@ -160,6 +160,8 @@ you see classes below that have not been explicitly defined in the modules*/
   padding: 0px 5% 70px;
   text-align: center;
   margin-bottom: 40px; }
+  #g1Content .row, #gXContent .row, #g2Content .row {
+    margin: 50px auto; }
   #g1Content p, #gXContent p, #g2Content p {
     color: #9e9e9e;
     margin-bottom: 35px;
@@ -176,7 +178,8 @@ you see classes below that have not been explicitly defined in the modules*/
     margin-bottom: 35px;
     text-align: left; }
   #g1Content img, #gXContent img, #g2Content img {
-    margin: 0 auto 35px; }
+    margin: 15px auto 35px;
+    border-radius: 5px; }
 
 /* 
 'sp' stands for sponsors in identifiers below

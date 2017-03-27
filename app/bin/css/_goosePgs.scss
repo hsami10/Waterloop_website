@@ -75,6 +75,10 @@ $g1MarginContent: 35px;
     text-align: center;
     margin-bottom: 40px;
 
+    .row {
+        margin: 50px auto;
+    }
+
     p {
         color: $g1TextColor;
         margin-bottom: $g1MarginContent;
@@ -97,6 +101,7 @@ $g1MarginContent: 35px;
     }
 
     img {
-        margin: 0 auto $g1MarginContent;
+        margin: 15px auto $g1MarginContent;
+        border-radius: 5px;
     }
 }
