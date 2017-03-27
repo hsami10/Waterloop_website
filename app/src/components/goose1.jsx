@@ -18,19 +18,21 @@ export default class Goose1 extends React.Component {
                 </Row>
                 <Row id="g1Content">
                     <Row id="specs">
-                        <h2>SPECIFICATIONS</h2>
-                        <p>This is the Hyperloop pod that we are building. The GOOSE I is our half-scale, functional
+                        <Col xs={12} md={6} mdOffset={3}>
+                            <h2>SPECIFICATIONS</h2>
+                            <p>This is the Hyperloop pod that we are building. The GOOSE I is our half-scale, functional
                             prototype vehicle pod. Fabrication for the pod is already underway and the funding from
                             our Kickstarter will be used to complete its construction. This pod is entered in the SpaceX
                             Hyperloop Pod Competition to perform full systems tests on SpaceX’s one mile long test track at
                             high-speeds and in a vacuum. <br /><br /> The prototype is about 0.8m (32") wide, 2.5m (8') long,
                             0.9m (36") tall, around 250 kg in weight, and will travel at 550km/h (150m/s).</p>
+                        </Col>
                     </Row>
                     <Row>
-                        <Col xs={6}>
+                        <Col xs={12} md={6}>
                             <Image src={images + 'flock-imgs/shell.jpg'} responsive />
                         </Col>
-                        <Col xs={6}>
+                        <Col xs={12} md={6}>
                             <h2>POD SHELL</h2>
                             <p>The shell is designed to be as lightweight as possible while withstanding all of the forces it will
                             be subjected to in the one-mile long test drive. This is made possible by introducing a geodetic
