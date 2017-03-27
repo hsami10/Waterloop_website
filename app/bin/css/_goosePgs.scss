@@ -76,12 +76,12 @@ $g1MarginContent: 35px;
     margin-bottom: 40px;
 
     .row {
-        margin: 50px auto;
+        margin: 65px auto;
     }
 
     p {
         color: $g1TextColor;
-        margin: 0 20px $g1MarginContent;
+        margin: 0 30px $g1MarginContent;
         text-align: left;
         font-size: 15px;
         letter-spacing: 1.35px;
@@ -95,6 +95,7 @@ $g1MarginContent: 35px;
     }
 
     h3 {
+        margin-left: 30px;
         color: $g1HeadingsColor;
         margin-bottom: $g1MarginContent;
         text-align: left;
