@@ -17,7 +17,7 @@ export default class Goose1 extends React.Component {
                     <h1 id="g1Title">INITIAL PROTOTYPE: <br />GOOSE I</h1>
                 </Row>
                 <Row id="g1Content">
-                    <Row id="specs">
+                    <Row>
                         <Col xs={12} md={6} mdOffset={3}>
                             <h2>SPECIFICATIONS</h2>
                             <p>This is the Hyperloop pod that we are building. The GOOSE I is our half-scale, functional
@@ -29,10 +29,10 @@ export default class Goose1 extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col xs={12} md={6}>
+                        <Col md={6}>
                             <Image src={images + 'flock-imgs/shell.jpg'} responsive />
                         </Col>
-                        <Col xs={12} md={6}>
+                        <Col md={6}>
                             <h2>POD SHELL</h2>
                             <p>The shell is designed to be as lightweight as possible while withstanding all of the forces it will
                             be subjected to in the one-mile long test drive. This is made possible by introducing a geodetic
@@ -43,13 +43,17 @@ export default class Goose1 extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Image src={images + 'flock-imgs/levitation.png'} responsive />
-                        <h2>LEVITATION SYSTEM</h2>
-                        <p>Air levitation through the form of four air casters is supplied via two on-board air tanks. The air
+                        <Col xs={12} md={6} mdPush={6}>
+                            <Image src={images + 'flock-imgs/levitation.png'} responsive />
+                        </Col>
+                        <Col xs={12} md={6} mdPull={6}>
+                            <h2>LEVITATION SYSTEM</h2>
+                            <p>Air levitation through the form of four air casters is supplied via two on-board air tanks. The air
                             casters create a thin sheet of air similar to an air hockey table upon which our pod floats. Air
                             levitation is significantly less expensive and produces less drag than magnetic levitation. Although
                             air caster technology has been in use for decades and is well understood, our levitation system is
                             the first of its kind.</p>
+                        </Col>
                     </Row>
                     <Row>
                         <h2>BRAKING</h2>
