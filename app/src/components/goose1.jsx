@@ -13,8 +13,8 @@ let images = '/app/bin/Images/'; //all images stored here
 
 export default class Goose1 extends React.Component {
     render() {
-        return ( 
-            <Grid fluid> 
+        return (
+            <Grid fluid>
                 <Row id="g1Backgrnd">
                     <NavBar />
                 </Row>
@@ -22,7 +22,7 @@ export default class Goose1 extends React.Component {
                 <Row id="g1TitleRow">
                     <h1 id="g1Title">INITIAL PROTOTYPE: <br />GOOSE I</h1>
                 </Row>
-                
+
                 <Row id="g1Content">
                     <Row>
                         <Col md={6} mdOffset={3}>
@@ -35,8 +35,8 @@ export default class Goose1 extends React.Component {
                             0.9m (36") tall, around 250 kg in weight, and will travel at 550km/h (150m/s).</p>
                         </Col>
                     </Row>
-        
-                    <Row> 
+
+                    <Row>
                         <Col md={6}>
                             <Image src={images + 'flock-imgs/shell.jpg'} responsive />
                         </Col>
@@ -50,12 +50,12 @@ export default class Goose1 extends React.Component {
                             the use of rapid fabrication technology including laser cutting and 3D printing.</p>
                         </Col>
                     </Row>
-                
+
                     <Row>
-                        <Col xs={12} md={6} mdPush={6}>
+                        <Col md={6} mdPush={6}>
                             <Image src={images + 'flock-imgs/levitation.png'} responsive />
                         </Col>
-                        <Col xs={12} md={6} mdPull={6}>
+                        <Col md={6} mdPull={6}>
                             <h2>LEVITATION SYSTEM</h2>
                             <p>Air levitation through the form of four air casters is supplied via two on-board air tanks. The air
                             casters create a thin sheet of air similar to an air hockey table upon which our pod floats. Air
@@ -64,7 +64,7 @@ export default class Goose1 extends React.Component {
                             the first of its kind.</p>
                         </Col>
                     </Row>
-                
+
                     <Row>
                         <Col md={6} mdOffset={3}>
                             <h2>BRAKING</h2>
@@ -72,50 +72,76 @@ export default class Goose1 extends React.Component {
                             combination of eddy current braking and friction braking is used. This allows for greater control over
                             heat generation, higher performance, lower maintenance, and safety through redundancy.</p>
                         </Col>
-                        <Image src={images + 'flock-imgs/eddy-brake.png'} responsive />
-                        <h3>EDDY CURRENT BRAKING</h3>
-                        <p>Our state-of-the-art contactless eddy current braking system uses 84 neodymium magnets arranged in a Halbach
+                    </Row>
+
+                    <Row>
+                        <Col md={6}>
+                            <Image src={images + 'flock-imgs/eddy-brake.png'} responsive />
+                        </Col>
+                        <Col md={6}>
+                            <h3>EDDY CURRENT BRAKING</h3>
+                            <p>Our state-of-the-art contactless eddy current braking system uses 84 neodymium magnets arranged in a Halbach
                             array. This arrangement doubles the magnetic strength on one side and cancels it out on the other.
                             Braking force is achieved by exploiting the same drag produced in magnetic levitation - or when a permanent
                             magnet is dropped down a copper tube. As the permanent magnets approach the I-beam while the pod is in motion,
                             tiny circular electrical currents called eddy currents are induced within the beam which smoothly slows the
                             pod down in a highly controlled fashion. </p>
-                        <Image src={images + 'flock-imgs/friction-brake.png'} responsive />
-                        <h3>FRICTION BRAKING</h3>
-                        <p>Our friction braking system is simple yet effective. Special brake linings made of resin-bonded synthetic
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col md={6} mdPush={6}>
+                            <Image src={images + 'flock-imgs/friction-brake.png'} responsive />
+                        </Col>
+                        <Col md={6} mdPull={6}>
+                            <h3>FRICTION BRAKING</h3>
+                            <p>Our friction braking system is simple yet effective. Special brake linings made of resin-bonded synthetic
                             rubber with steel fibres allow for effective energy transformation and heat dissipation, sparing damage
                             to the I-beam.</p>
+                        </Col>
                     </Row>
-                
+
                     <Row>
-                        <Image src={images + 'flock-imgs/lateral.png'} responsive />
-                        <h2>LATERAL CONTROL</h2>
-                        <p>The lateral control system uses two sets of spring-loaded caster wheels to maintain the lateral stability
+                        <Col md={6}>
+                            <Image src={images + 'flock-imgs/lateral.png'} responsive />
+                        </Col>
+                        <Col md={6}>
+                            <h2>LATERAL CONTROL</h2>
+                            <p>The lateral control system uses two sets of spring-loaded caster wheels to maintain the lateral stability
                             of the Goose I, with respect to the I-beam of the Hypertube. The system combines reliability, efficiency,
                             safety, and comfort by using high speed, high performance, and dampened wheels.</p>
+                        </Col>
                     </Row>
-                
+
                     <Row>
-                        <Image src={images + 'flock-imgs/drive-train.png'} responsive />
-                        <h2>DRIVE TRAIN</h2>
-                        <p>The Low-speed Drive system allows for taxiing before the test, in order to position for launch, and after
+                        <Col md={6} mdPush={6}>
+                            <Image src={images + 'flock-imgs/drive-train.png'} responsive />
+                        </Col>
+                        <Col md={6} mdPull={6}>
+                            <h2>DRIVE TRAIN</h2>
+                            <p>The Low-speed Drive system allows for taxiing before the test, in order to position for launch, and after
                             the test so that the pod can exit the Hypertube. This system uses an air cylinder to retract the drive
                             wheel into the pod during high speed travel. A set of four idler wheels keep the air casters from contacting
                             the ground when levitation stops.</p>
+                        </Col>
                     </Row>
-                
+
                     <Row>
-                        <Image src={images + 'flock-imgs/elec-embedded.jpg'} responsive />
-                        <h2>ELECTRICAL AND EMBEDDED SYSTEMS</h2>
-                        <h3>ELECTRICAL</h3>
-                        <p>The Electrical system is responsible for power distribution. Onboard power is delivered by a rechargeable 48V
+                        <Col md={6}>
+                            <Image src={images + 'flock-imgs/elec-embedded.jpg'} responsive />
+                        </Col>
+                        <Col md={6}>
+                            <h2>ELECTRICAL AND EMBEDDED SYSTEMS</h2>
+                            <h3>ELECTRICAL</h3>
+                            <p>The Electrical system is responsible for power distribution. Onboard power is delivered by a rechargeable 48V
                             battery pack surrounded by a phase changing, fire-retardant matrix and enclosed in a sturdy PVC shell enclosure
                              to keep it cool and secure.</p>
-                        <h3>EMBEDDED</h3>
-                        <p>The nervous system of our pod - using a multitude of sensors and actuators, the embedded system is responsible
+                            <h3>EMBEDDED</h3>
+                            <p>The nervous system of our pod - using a multitude of sensors and actuators, the embedded system is responsible
                             for the control of all other subsystems, position detection within the Hypertube, and communications between
                             the pod and a remote control dashboard. This dashboard acts as a control center and a feed displaying
                             information on the status of the pod.</p>
+                        </Col>
                     </Row>
                 </Row>
             </Grid>
