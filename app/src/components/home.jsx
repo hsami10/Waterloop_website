@@ -74,7 +74,7 @@ class EndFace extends React.Component {
                     <br />
                     <div className="watchVidPrompts" style={{ marginBottom: '20px' }}><span>&larr;</span> Watch the Video</div>
                     <div>
-                        <img src="http://placehold.it/950x450" alt="placeholder" />
+                        <img src={images + "flock-imgs/train-side.jpg"} alt="placeholder" />
                     </div>
                 </Col>
             </Row>
