@@ -17,7 +17,7 @@ export default class Goose1 extends React.Component {
                     <h1 id="g1Title">INITIAL PROTOTYPE: <br />GOOSE I</h1>
                 </Row>
                 <Row id="g1Content">
-                    <Row>
+                    <Row id="specs">
                         <h2>SPECIFICATIONS</h2>
                         <p>This is the Hyperloop pod that we are building. The GOOSE I is our half-scale, functional
                             prototype vehicle pod. Fabrication for the pod is already underway and the funding from
