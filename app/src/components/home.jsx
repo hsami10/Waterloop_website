@@ -16,7 +16,7 @@ let images = '/app/bin/Images/'; //all images stored here
 export default class Home extends React.Component {
     render() {
         return (
-            <Grid >
+            <Grid fluid>
                 <NavBar onPageChange={this.props.onPageChange} />
                 <FirstFace />
                 <MidFace />
@@ -32,7 +32,7 @@ class FirstFace extends React.Component {
             <Row>
                 <Col id="homeFirstFace">
                     <div id="homeFirstFace-image" className="homeFirstFace">
-                        <Image src='http://placehold.it/1100x600' responsive/>
+                        <Image src={images + "train-in-tube-front.jpeg"} responsive/>
                     </div>
                     <Button bsSize="lg" id="goose2LrnMore-btn" className="homeFirstFace">
                         Goose II - Learn More
@@ -51,7 +51,7 @@ class MidFace extends React.Component {
     render() {
         return (
             <Row>
-                <Col id="homeMidFace">
+                <Col id="homeMidFace" xs={8} xsOffset={2}>
                     <div className="homeTitles">BEYOND SCIENCE FICTION</div>
                     <br />
                     <div className="watchVidPrompts">Watch the University Video <span>&rarr;</span></div>
@@ -69,7 +69,7 @@ class EndFace extends React.Component {
     render() {
         return (
             <Row>
-                <Col id="alignRtBlock">
+                <Col id="alignRtBlock" xs={8} xsOffset={2}>
                     <div className="homeTitles">WHAT IS WATERLOOP?</div>
                     <br />
                     <div className="watchVidPrompts" style={{ marginBottom: '20px' }}><span>&larr;</span> Watch the Video</div>
