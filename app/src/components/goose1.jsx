@@ -6,19 +6,26 @@ import { Image } from 'react-bootstrap';
 
 let images = '/app/bin/Images/'; //all images stored here
 
+/**
+ * Note that each row below containing picture and corresponding text alternates between
+ * pic first and text second, and text first and pic second.
+ */
+
 export default class Goose1 extends React.Component {
     render() {
-        return (
-            <Grid fluid>
+        return ( 
+            <Grid fluid> 
                 <Row id="g1Backgrnd">
                     <NavBar />
                 </Row>
+
                 <Row id="g1TitleRow">
                     <h1 id="g1Title">INITIAL PROTOTYPE: <br />GOOSE I</h1>
                 </Row>
+                
                 <Row id="g1Content">
                     <Row>
-                        <Col xs={12} md={6} mdOffset={3}>
+                        <Col md={6} mdOffset={3}>
                             <h2>SPECIFICATIONS</h2>
                             <p>This is the Hyperloop pod that we are building. The GOOSE I is our half-scale, functional
                             prototype vehicle pod. Fabrication for the pod is already underway and the funding from
@@ -28,7 +35,8 @@ export default class Goose1 extends React.Component {
                             0.9m (36") tall, around 250 kg in weight, and will travel at 550km/h (150m/s).</p>
                         </Col>
                     </Row>
-                    <Row>
+        
+                    <Row> 
                         <Col md={6}>
                             <Image src={images + 'flock-imgs/shell.jpg'} responsive />
                         </Col>
@@ -42,6 +50,7 @@ export default class Goose1 extends React.Component {
                             the use of rapid fabrication technology including laser cutting and 3D printing.</p>
                         </Col>
                     </Row>
+                
                     <Row>
                         <Col xs={12} md={6} mdPush={6}>
                             <Image src={images + 'flock-imgs/levitation.png'} responsive />
@@ -55,11 +64,14 @@ export default class Goose1 extends React.Component {
                             the first of its kind.</p>
                         </Col>
                     </Row>
+                
                     <Row>
-                        <h2>BRAKING</h2>
-                        <p>Our hybrid braking system is mechanically fail-safe and functions even if all other systems fail. A
+                        <Col md={6} mdOffset={3}>
+                            <h2>BRAKING</h2>
+                            <p>Our hybrid braking system is mechanically fail-safe and functions even if all other systems fail. A
                             combination of eddy current braking and friction braking is used. This allows for greater control over
                             heat generation, higher performance, lower maintenance, and safety through redundancy.</p>
+                        </Col>
                         <Image src={images + 'flock-imgs/eddy-brake.png'} responsive />
                         <h3>EDDY CURRENT BRAKING</h3>
                         <p>Our state-of-the-art contactless eddy current braking system uses 84 neodymium magnets arranged in a Halbach
@@ -74,6 +86,7 @@ export default class Goose1 extends React.Component {
                             rubber with steel fibres allow for effective energy transformation and heat dissipation, sparing damage
                             to the I-beam.</p>
                     </Row>
+                
                     <Row>
                         <Image src={images + 'flock-imgs/lateral.png'} responsive />
                         <h2>LATERAL CONTROL</h2>
@@ -81,6 +94,7 @@ export default class Goose1 extends React.Component {
                             of the Goose I, with respect to the I-beam of the Hypertube. The system combines reliability, efficiency,
                             safety, and comfort by using high speed, high performance, and dampened wheels.</p>
                     </Row>
+                
                     <Row>
                         <Image src={images + 'flock-imgs/drive-train.png'} responsive />
                         <h2>DRIVE TRAIN</h2>
@@ -89,6 +103,7 @@ export default class Goose1 extends React.Component {
                             wheel into the pod during high speed travel. A set of four idler wheels keep the air casters from contacting
                             the ground when levitation stops.</p>
                     </Row>
+                
                     <Row>
                         <Image src={images + 'flock-imgs/elec-embedded.jpg'} responsive />
                         <h2>ELECTRICAL AND EMBEDDED SYSTEMS</h2>
