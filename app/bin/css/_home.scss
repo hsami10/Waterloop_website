@@ -12,6 +12,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 0 0 180px 180px;
+    box-shadow: 0 25px 50px 50px black inset;
 }
 
 /* First Face */
@@ -47,6 +49,16 @@
     background-position: center;
     padding-top: 10%;
 }
+
+#homeEndFace {
+    @extend #homeMidFace;
+    background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');
+}
+
+#homeEndFace > div {
+    text-align: right;
+}
+
 
 
 

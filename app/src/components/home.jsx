@@ -48,7 +48,7 @@ class MidFace extends React.Component {
     render() {
         return (
             <Row id="homeMidFace" middle="xs">
-                <Col xs={8} xsOffset={2}>
+                <Col xs={8} xsOffset={1}>
                     <div className="homeTitles">BEYOND SCIENCE FICTION</div>
                     <br />
                     <div className="watchVidPrompts">Watch the University Video <span>&rarr;</span></div>
@@ -61,14 +61,11 @@ class MidFace extends React.Component {
 class EndFace extends React.Component {
     render() {
         return (
-            <Row>
-                <Col id="alignRtBlock" xs={8} xsOffset={2}>
+            <Row id="homeEndFace">
+                <Col xs={8} xsOffset={2}>
                     <div className="homeTitles">WHAT IS WATERLOOP?</div>
                     <br />
-                    <div className="watchVidPrompts" style={{ marginBottom: '20px' }}><span>&larr;</span> Watch the Video</div>
-                    <div>
-                        <img src={images + "flock-imgs/train-side.jpg"} alt="placeholder" />
-                    </div>
+                    <div className="watchVidPrompts"><span>&larr;</span> Watch the Video</div>
                 </Col>
             </Row>
         );
