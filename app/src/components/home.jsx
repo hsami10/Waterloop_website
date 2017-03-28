@@ -47,8 +47,8 @@ class FirstFace extends React.Component {
 class MidFace extends React.Component {
     render() {
         return (
-            <Row>
-                <Col id="homeMidFace" xs={8} xsOffset={2}>
+            <Row id="homeMidFace">
+                <Col xs={8} xsOffset={2}>
                     <div className="homeTitles">BEYOND SCIENCE FICTION</div>
                     <br />
                     <div className="watchVidPrompts">Watch the University Video <span>&rarr;</span></div>

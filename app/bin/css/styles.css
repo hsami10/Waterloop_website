@@ -55,6 +55,9 @@ you see classes below that have not been explicitly defined in the modules*/
     position: relative;
     top: -160px; }
 
+#homeMidFace {
+  background-image: url("/app/bin/Images/shell-inside-view.jpg"); }
+
 .homeFirstFace, #homeMidFace > div {
   margin-bottom: 20px; }
 
