@@ -74,7 +74,9 @@ export class Contact extends React.Component {
                             <Button className="fmSubmit">SUBMIT</Button>
                         </form>
                     </Row>
-                    <br /><br /><br /><br /><br /><br />
+                    <br /><br /><br /><br />
+                    <div className="dividerLine"></div>
+                    <br /><br />
                     <Row>
                         <h2>JOIN THE TEAM</h2>
                         <h4>Interested in joining the team? Get in touch below!</h4><br />

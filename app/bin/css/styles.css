@@ -240,6 +240,9 @@ you see classes below that have not been explicitly defined in the modules*/
     font-weight: 700; }
   #contContent h4 {
     color: #6a6a6a; }
+  #contContent .dividerLine {
+    height: 1px;
+    background-color: darkgrey; }
 
 #contContent > .row > form {
   padding: 20px;
