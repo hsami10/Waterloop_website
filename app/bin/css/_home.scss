@@ -5,6 +5,8 @@
     border-radius: $radius;
 }
 
+$home-titles: #39abff;
+
 
 #homeBackgrnd {
     background-image: url('/app/bin/Images/train-in-tube-front.jpeg');
@@ -48,59 +50,31 @@
     background-size: cover;
     background-position: center;
     padding-top: 10%;
+    border-radius: 20px 40px 380px 380px;
+    box-shadow: 0 25px 50px 60px black inset;
 }
 
 #homeEndFace {
     @extend #homeMidFace;
     background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');
+    border-radius: 220px 240px 480px 480px;
+    box-shadow: 0 25px 50px 90px black inset;
 }
 
 #homeEndFace > div {
     text-align: right;
 }
 
-
-
-
-.homeFirstFace {
-    margin-bottom: 20px;
-}
-
-#homeFirstFace-image {
-    margin-left: 240px;
-}
-
-#g2LrnMore {
-    
-}
-
-
-/* MIDFACE n ENDFACE*/
-
-$home-titles: #39abff;
-
-#homeMidFace > div {
-    @extend .homeFirstFace;
-}
-
 .homeTitles {
     margin-top: 60px;
     color: $home-titles;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
-    // margin-left: 80px;
-    // margin-right: 80px;
 }
 
 .watchVidPrompts {
     color: white;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 550;
-    // margin-left: 80px;
-    // margin-right: 80px;
 }
 
-#alignRtBlock  {
-    text-align: right;
-    padding-top: 80px;
-}

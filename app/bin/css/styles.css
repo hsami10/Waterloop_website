@@ -63,35 +63,28 @@ you see classes below that have not been explicitly defined in the modules*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 10%; }
+  padding-top: 10%;
+  border-radius: 20px 40px 380px 380px;
+  box-shadow: 0 25px 50px 60px black inset; }
 
 #homeEndFace {
-  background-image: url("/app/bin/Images/flock-imgs/train-side.jpg"); }
+  background-image: url("/app/bin/Images/flock-imgs/train-side.jpg");
+  border-radius: 220px 240px 480px 480px;
+  box-shadow: 0 25px 50px 90px black inset; }
 
 #homeEndFace > div {
   text-align: right; }
 
-.homeFirstFace, #homeMidFace > div, #homeEndFace > div {
-  margin-bottom: 20px; }
-
-#homeFirstFace-image {
-  margin-left: 240px; }
-
-/* MIDFACE n ENDFACE*/
 .homeTitles {
   margin-top: 60px;
   color: #39abff;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 900; }
 
 .watchVidPrompts {
   color: white;
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 550; }
-
-#alignRtBlock {
-  text-align: right;
-  padding-top: 80px; }
 
 #teamBackground {
   height: 740px;
