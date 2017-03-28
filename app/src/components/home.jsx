@@ -47,15 +47,11 @@ class FirstFace extends React.Component {
 class MidFace extends React.Component {
     render() {
         return (
-            <Row id="homeMidFace">
+            <Row id="homeMidFace" middle="xs">
                 <Col xs={8} xsOffset={2}>
                     <div className="homeTitles">BEYOND SCIENCE FICTION</div>
                     <br />
                     <div className="watchVidPrompts">Watch the University Video <span>&rarr;</span></div>
-                    <br />
-                    <div>
-                        <img src="http://placehold.it/950x450" alt="palceholder" />
-                    </div>
                 </Col>
             </Row>
         );
