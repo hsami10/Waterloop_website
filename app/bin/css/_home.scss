@@ -14,13 +14,34 @@
     background-position: center;
 }
 
-
-
-
 /* First Face */
 #homeFirstFace {
     text-align: center;
+    position: relative;
+    height: 0px;
+
+    button {
+        @include border-radius(0px);
+        outline: none;
+        color: #80bfeb;
+        font-size: 18px;
+        font-weight: bold;
+        background: rgba(19, 79, 121, 0.8);
+        border: none;
+        border-bottom: thick solid #63aadc;
+        position: relative;
+        top: -160px;
+    }
+
+    img {
+        position: relative;
+        top: -160px;
+    }
 }
+
+
+
+
 
 .homeFirstFace {
     margin-bottom: 20px;
@@ -31,14 +52,7 @@
 }
 
 #g2LrnMore {
-    @include border-radius(0px);
-    outline: none;
-    color: #4e96c9;
-    font-size: 18px;
-    font-weight: bold;
-    background: rgba(40, 112, 163, 0.3);
-    border: none;
-    border-bottom: thick solid #206393;
+    
 }
 
 

@@ -34,26 +34,32 @@ you see classes below that have not been explicitly defined in the modules*/
 
 /* First Face */
 #homeFirstFace {
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  height: 0px; }
+  #homeFirstFace button {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    outline: none;
+    color: #80bfeb;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(19, 79, 121, 0.8);
+    border: none;
+    border-bottom: thick solid #63aadc;
+    position: relative;
+    top: -160px; }
+  #homeFirstFace img {
+    position: relative;
+    top: -160px; }
 
 .homeFirstFace, #homeMidFace > div {
   margin-bottom: 20px; }
 
 #homeFirstFace-image {
   margin-left: 240px; }
-
-#g2LrnMore {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  border-radius: 0px;
-  outline: none;
-  color: #4e96c9;
-  font-size: 18px;
-  font-weight: bold;
-  background: rgba(40, 112, 163, 0.3);
-  border: none;
-  border-bottom: thick solid #206393; }
 
 /* MIDFACE n ENDFACE*/
 .homeTitles {

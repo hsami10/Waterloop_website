@@ -31,12 +31,12 @@ export default class Home extends React.Component {
 class FirstFace extends React.Component {
     render() {
         return (
-            <Row>
-                <Button bsSize="lg" id="g2LrnMore" className="homeFirstFace">
+            <Row id="homeFirstFace">
+                <Button bsSize="lg" id="g2LrnMore">
                     Goose II - Learn More
                 </Button>
-                <br />
-                <div className="homeFirstFace">
+                <br /><br />
+                <div>
                     <img src={images + 'arrow-down.png'} alt="Arrow_down" height="40" width="40" />
                 </div>
             </Row>
