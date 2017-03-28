@@ -77,6 +77,12 @@ $spTxtClr: rgb(38, 37, 37);
     }
 }
 
+#contContent > .row > form {
+    padding: 20px;   
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px black;
+}
+
 .fmSubmit {
     @include border-radius(0);
     background:  $spTxtClr;
