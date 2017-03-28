@@ -15,7 +15,7 @@ $home-titles: #39abff;
     background-size: cover;
     background-position: center;
     border-radius: 0;
-    box-shadow: 0 -50px 220px 200px black inset;
+    box-shadow: 0 -10px 220px 200px black inset;
 }
 
 /* First Face */
@@ -50,15 +50,15 @@ $home-titles: #39abff;
     background-size: cover;
     background-position: center;
     padding-top: 10%;
-    border-radius: 20px 40px 380px 380px;
-    box-shadow: 0 25px 50px 60px black inset;
+    //border-radius: 20px 40px 380px 380px;
+    box-shadow: 0 -50px 220px 200px black inset;
 }
 
 #homeEndFace {
     @extend #homeMidFace;
     background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');
     border-radius: 220px 240px 480px 480px;
-    box-shadow: 0 25px 50px 90px black inset;
+    box-shadow: 0 -50px 220px 160px black inset;
 }
 
 #homeEndFace > div {
