@@ -17,7 +17,9 @@ export default class Home extends React.Component {
     render() {
         return (
             <Grid fluid>
-                <NavBar onPageChange={this.props.onPageChange} />
+                <Row id="homeBackgrnd">
+                    <NavBar onPageChange={this.props.onPageChange} />
+                </Row>
                 <FirstFace />
                 <MidFace />
                 <EndFace />
@@ -30,18 +32,13 @@ class FirstFace extends React.Component {
     render() {
         return (
             <Row>
-                <Col id="homeFirstFace">
-                    <div id="homeFirstFace-image" className="homeFirstFace">
-                        <Image src={images + "train-in-tube-front.jpeg"} responsive/>
-                    </div>
-                    <Button bsSize="lg" id="goose2LrnMore-btn" className="homeFirstFace">
-                        Goose II - Learn More
-                        </Button>
-                    <br />
-                    <div className="homeFirstFace">
-                        <img src={images + 'arrow-down.png'} alt="Arrow_down" height="40" width="40" />
-                    </div>
-                </Col>
+                <Button bsSize="lg" id="g2LrnMore" className="homeFirstFace">
+                    Goose II - Learn More
+                </Button>
+                <br />
+                <div className="homeFirstFace">
+                    <img src={images + 'arrow-down.png'} alt="Arrow_down" height="40" width="40" />
+                </div>
             </Row>
         );
     }

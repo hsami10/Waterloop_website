@@ -25,6 +25,13 @@ you see classes below that have not been explicitly defined in the modules*/
 #navbar-items > ul > li > a {
   font-weight: bold; }
 
+#homeBackgrnd {
+  background-image: url("/app/bin/Images/train-in-tube-front.jpeg");
+  height: 740px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
 /* First Face */
 #homeFirstFace {
   text-align: center; }
@@ -35,7 +42,7 @@ you see classes below that have not been explicitly defined in the modules*/
 #homeFirstFace-image {
   margin-left: 240px; }
 
-#goose2LrnMore-btn {
+#g2LrnMore {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;

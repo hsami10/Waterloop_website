@@ -6,6 +6,17 @@
 }
 
 
+#homeBackgrnd {
+    background-image: url('/app/bin/Images/train-in-tube-front.jpeg');
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
 /* First Face */
 #homeFirstFace {
     text-align: center;
@@ -19,7 +30,7 @@
     margin-left: 240px;
 }
 
-#goose2LrnMore-btn {
+#g2LrnMore {
     @include border-radius(0px);
     outline: none;
     color: #4e96c9;
