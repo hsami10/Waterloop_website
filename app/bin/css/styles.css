@@ -32,7 +32,7 @@ you see classes below that have not been explicitly defined in the modules*/
   background-size: cover;
   background-position: center;
   border-radius: 0;
-  box-shadow: 0 0 250px 200px black inset; }
+  box-shadow: 0 -50px 220px 200px black inset; }
 
 /* First Face */
 #homeFirstFace {
