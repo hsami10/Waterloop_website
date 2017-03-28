@@ -244,7 +244,7 @@ you see classes below that have not been explicitly defined in the modules*/
 #contContent > .row > form {
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0px 5px 15px black; }
+  box-shadow: 0px 15px 15px grey; }
 
 .fmSubmit {
   -webkit-border-radius: 0;
