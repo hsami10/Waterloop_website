@@ -29,7 +29,10 @@ export default class NavBar extends React.Component {
                             <MenuItem eventKey={3.3}>Goose X</MenuItem>
                         </NavDropdown>
                         <NavItem eventKey={1} href="/app/src/components/team.jsx">Team</NavItem>
-                        
+                        <NavDropdown title="Blog & Press">
+                            <MenuItem>Blog</MenuItem>
+                            <MenuItem>Press</MenuItem>
+                        </NavDropdown>
                         <NavItem eventKey={2} href="#">Contact</NavItem>
                     </Nav>
                 </Navbar.Collapse>
