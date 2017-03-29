@@ -152,11 +152,6 @@ you see classes below that have not been explicitly defined in the modules*/
   background-size: cover;
   background-position: center; }
 
-::selection {
-  color: white;
-  background: black;
-  border-radius: 5px; }
-
 #g1Backgrnd {
   background-image: url("/app/bin/Images/flock-imgs/train-side.jpg"); }
 
@@ -282,5 +277,10 @@ you see classes below that have not been explicitly defined in the modules*/
 
 body {
   background: black; }
+
+::selection {
+  color: white;
+  background: black;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=styles.css.map */

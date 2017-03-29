@@ -33,12 +33,6 @@ $g1MarginContent: 35px;
     background-position: center;
 }
 
-::selection {
-    color: white;
-    background: black;
-    border-radius: 5px;
-}
-
 #g1Backgrnd {
     @extend %gooseBackgrndProps;
     background-image: url('/app/bin/Images/flock-imgs/train-side.jpg');

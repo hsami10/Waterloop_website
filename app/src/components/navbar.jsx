@@ -9,7 +9,7 @@ export default class NavBar extends React.Component {
 
     render() {
         return (
-            <Navbar inverse fixedTop collapseOnSelect id="navbar" onSelect={this.props.onClick}>
+            <Navbar inverse fixedTop collapseOnSelect id="navbar" >
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a href="" onClick={this.props.onPageCh} id="navbar-brand">
