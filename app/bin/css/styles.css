@@ -26,9 +26,11 @@ you see classes below that have not been explicitly defined in the modules*/
 #navbar-items > ul > li > a {
   font-weight: bold; }
 
-.dropdown .dropdown-menu {
-  background: black; }
-  .dropdown .dropdown-menu a {
+#navbar-items .dropdown-menu {
+  background: black;
+  border-radius: 0px;
+  margin-top: 15px; }
+  #navbar-items .dropdown-menu a {
     color: lightgrey; }
 
 #homeBackgrnd {
