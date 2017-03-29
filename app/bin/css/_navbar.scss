@@ -23,4 +23,15 @@
 //makes sure dropdown menu items are not bolded.
 #navbar-items > ul > li > a {
     font-weight: bold;
+
+}
+
+.dropdown {
+    .dropdown-menu {
+        background: black;
+        
+        a {
+            color: lightgrey;
+        }
+    }
 }
