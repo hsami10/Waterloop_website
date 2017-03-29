@@ -31,7 +31,11 @@ you see classes below that have not been explicitly defined in the modules*/
   border-radius: 0px;
   margin-top: 15px; }
   #navbar-items .dropdown-menu a {
-    color: lightgrey; }
+    color: #bfbfbf;
+    outline: none; }
+  #navbar-items .dropdown-menu a:hover {
+    background: black;
+    color: white; }
 
 #homeBackgrnd {
   background-image: url("/app/bin/Images/train-in-tube-front.jpeg");
