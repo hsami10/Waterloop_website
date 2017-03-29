@@ -1,0 +1,30 @@
+
+%bgBackgrndProps {
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#bgBackgrnd {
+    @extend %bgBackgrndProps;
+    background-image: url('/app/bin/Images/blog-lev-front.png');
+}
+
+#bgTitleRow {
+    background: white;
+    position: relative;
+    height: 35px;
+}
+
+#bgTitle {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+
+

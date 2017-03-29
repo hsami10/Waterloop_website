@@ -4,13 +4,23 @@ import NavBar from './navbar.jsx';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 
+//bg stands for blog below
 export class Blog extends React.Component {
     render() {
         return (
             <Grid fluid>
-                <Row>
+                <Row id="bgBackgrnd">
                     <NavBar />
                 </Row>
+
+                <Row id="bgTitleRow">
+                    <h1 id="bgTitle">THE JOURNEY TO CALIFORNIA</h1>
+                </Row>
+
+                <Row id="bgContent">
+                    
+                </Row>
+
             </Grid>
         );
     }
