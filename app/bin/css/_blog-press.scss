@@ -62,7 +62,7 @@ $bgTextColor: rgb(158, 158, 158);
     img {
         margin-bottom: 30px;
         border-radius: 7px;
-        box-shadow: 0 0 20px black;
+        //box-shadow: 0 0 20px 20px white inset;
     }
 
     .col-md-6 {
@@ -75,7 +75,16 @@ $bgTextColor: rgb(158, 158, 158);
 #bgContent > .col-md-8 > .row {
     margin-bottom: 60px;
     padding: 30px 50px;
-    box-shadow: 5px 10px 20px 5px #575757;
+    box-shadow: 8px 10px 20px 5px #575757;
 }
 
+#bgContent > .col-md-8 > .black {
+    margin-bottom: 60px;
+    padding: 30px 50px;
+    box-shadow: -8px 10px 20px 5px #848484;
+    background: #e1e1e1;
 
+    p {
+        color: #646464;
+    }
+}

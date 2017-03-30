@@ -23,7 +23,7 @@ export default class Blog extends React.Component {
                 <Row id="bgContent">
                     <Col md={8} mdOffset={2}>
                         <Post1 />
-                        <Post2 />
+                        <Post2 theme="black"/>
                         <Post3 />
                     </Col>
                 </Row>
@@ -33,9 +33,9 @@ export default class Blog extends React.Component {
     }
 }
 
-const Post1 = () => {
+const Post1 = ({theme}) => {
     return (
-        <Row>
+        <Row className={theme}>
             <h1>FULLY FUNDED!</h1>
             <h2>NOV 30, 2016</h2>
             <p>A HUGE thank you to each and every backer from the Waterloop team! We are all so
@@ -49,9 +49,9 @@ const Post1 = () => {
     );
 }
 
-const Post2 = () => {
+const Post2 = ({theme}) => {
     return (
-        <Row>
+        <Row className={theme}>
             <h1>HYPERLOOP SETS A NEW BAR FOR SUSTAINABILITY IN TRANSIT</h1>
             <h2>NOV 9, 2016</h2>
             <p>A futuristic concept of how we move between city centers may be hurtling into our reality.
@@ -125,9 +125,9 @@ const Post2 = () => {
     );
 }
 
-const Post3 = () => {
+const Post3 = ({theme}) => {
     return (
-        <Row>
+        <Row className={theme}>
             <h1>GOOSE I TAKES FLIGHT</h1>
             <h2>NOV 8, 2016</h2>
             <p>Team Waterloop is thrilled to announce we have successfully demonstrated the world's first functional pneumatic

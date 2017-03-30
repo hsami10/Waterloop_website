@@ -336,15 +336,22 @@ you see classes below that have not been explicitly defined in the modules*/
     margin-bottom: 30px; }
   #bgContent img {
     margin-bottom: 30px;
-    border-radius: 7px;
-    box-shadow: 0 0 20px black; }
+    border-radius: 7px; }
   #bgContent .col-md-6 p {
     padding-top: 10%; }
 
 #bgContent > .col-md-8 > .row {
   margin-bottom: 60px;
   padding: 30px 50px;
-  box-shadow: 5px 10px 20px 5px #575757; }
+  box-shadow: 8px 10px 20px 5px #575757; }
+
+#bgContent > .col-md-8 > .black {
+  margin-bottom: 60px;
+  padding: 30px 50px;
+  box-shadow: -8px 10px 20px 5px #848484;
+  background: #e1e1e1; }
+  #bgContent > .col-md-8 > .black p {
+    color: #646464; }
 
 body {
   background: black; }
