@@ -341,6 +341,11 @@ you see classes below that have not been explicitly defined in the modules*/
   #bgContent .col-md-6 p {
     padding-top: 10%; }
 
+#bgContent > .col-md-8 > .row {
+  margin-bottom: 60px;
+  padding: 30px 50px;
+  box-shadow: 5px 10px 20px 5px #575757; }
+
 body {
   background: black; }
 
