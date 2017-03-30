@@ -32,7 +32,8 @@ you see classes below that have not been explicitly defined in the modules*/
   margin-top: 15px; }
   #navbar-items .dropdown-menu a {
     color: #bfbfbf;
-    outline: none; }
+    outline: none;
+    text-align: center; }
   #navbar-items .dropdown-menu a:hover {
     background: black;
     color: white; }
