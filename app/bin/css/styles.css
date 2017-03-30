@@ -315,7 +315,7 @@ you see classes below that have not been explicitly defined in the modules*/
 
 #bgContent {
   background: white;
-  padding: 0 15px 25px;
+  padding: 0 25px 25px;
   margin-bottom: 50px; }
   #bgContent h1 {
     text-align: center;
@@ -333,6 +333,8 @@ you see classes below that have not been explicitly defined in the modules*/
     line-height: 27px;
     letter-spacing: 1.35px;
     font-size: 15px;
+    margin-bottom: 30px; }
+  #bgContent img {
     margin-bottom: 30px; }
 
 body {

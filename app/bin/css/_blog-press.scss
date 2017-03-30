@@ -30,7 +30,7 @@ $bgTextColor: rgb(158, 158, 158);
 
 #bgContent {
     background: white;
-    padding: 0 15px 25px;
+    padding: 0 25px 25px;
     margin-bottom: 50px;
 
     h1 {
@@ -56,6 +56,10 @@ $bgTextColor: rgb(158, 158, 158);
         line-height: 27px;
         letter-spacing: 1.35px;
         font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    img {
         margin-bottom: 30px;
     }
 }
