@@ -157,10 +157,10 @@ const Post3 = () => {
                             the discussion and get to know more about some of our members on Reddit!</p>
             <h3>Subsystem updates:</h3>
             <Row>
-                <Col xs={6}>
+                <Col md={6}>
                     <Image src={images + "blog-imgs/subsystem1.jpg"} responsive />
                 </Col>
-                <Col xs={6}>
+                <Col md={6}>
                     <p>Slow speed lateral is ready and working!
                         <br /><br />
                         The slow speed lateral wheels help to stabilize the levitation, allowing the pod to move in a straight
@@ -172,10 +172,10 @@ const Post3 = () => {
             </Row>
 
             <Row>
-                <Col xs={6}>
+                <Col md={6} mdPush={6}>
                     <Image src={images + "blog-imgs/subsystem2.jpg"} responsive />
                 </Col>
-                <Col xs={6}>
+                <Col md={6} mdPull={6}>
                     <p>The EC braking system is on its way, this week the team will continue to build - stay tuned
                         for more updates!
                         <br /><br />
@@ -185,10 +185,10 @@ const Post3 = () => {
             </Row>
 
             <Row>
-                <Col xs={6}>
+                <Col md={6}>
                     <Image src={images + "blog-imgs/subsystem3.png"} responsive />
                 </Col>
-                <Col xs={6}>
+                <Col md={6}>
                     <p>Shell is in production mode! Here is one of the first joint pieces being printed by our 3D
                                     printing sponsor, Inksmith!
                     </p>
@@ -196,10 +196,10 @@ const Post3 = () => {
             </Row>
 
             <Row>
-                <Col xs={6}>
+                <Col md={6} mdPush={6}>
                     <Image src={images + "blog-imgs/subsystem4.jpg"} responsive />
                 </Col>
-                <Col xs={6}>
+                <Col md={6} mdPull={6}>
                     <p>Embedded and Electrical systems are operational!
                         <br /><br />
                         For more details on our team progress, check out our kickstarter update.
