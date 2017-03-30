@@ -7,8 +7,8 @@ import Goose2 from './components/goose2.jsx';
 import GooseX from './components/gooseX.jsx';
 import { Sponsors } from './components/sponsors-contact.jsx';
 import { Contact } from './components/sponsors-contact.jsx';
-import { Blog } from './components/blog-press.jsx';
-import { Press } from './components/blog-press.jsx';
+import Blog from './components/blog.jsx';
+import Press from './components/press.jsx';
 //BOOTSTRAP IMPORTS
 
 let images = '/app/bin/Images/'; //all images stored here
@@ -19,7 +19,7 @@ class App extends React.Component {
         super(props);
 
         this.state = {
-            page: 'goose1-page'
+            page: 'blog-page'
         }
     }
 
