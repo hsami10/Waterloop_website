@@ -17,9 +17,7 @@ export default class Blog extends React.Component {
                 </Row>
 
                 <Row id="bgTitleRow">
-                    <AutoAffix viewportOffsetTop={150} container={this}>
                     <h1 id="bgTitle">THE JOURNEY TO CALIFORNIA</h1>
-                    </AutoAffix>
                 </Row>
 
                 <Row id="bgContent">
