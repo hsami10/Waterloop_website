@@ -20,14 +20,11 @@ export default class Blog extends React.Component {
                 </Row>
 
                 <Row id="bgContent">
-                    <Post1 />
-                    <Post2 />
-                    <Post3 />
-
-
-
-
-
+                    <Col md={8} mdOffset={2}>
+                        <Post1 />
+                        <Post2 />
+                        <Post3 />
+                    </Col>
                 </Row>
 
             </Grid>
@@ -134,7 +131,7 @@ const Post3 = () => {
             <h2>NOV 8, 2016</h2>
             <p>Team Waterloop is thrilled to announce we have successfully demonstrated the world's first functional pneumatic
                 hyperloop levitation system!</p>
-            <div></div>
+            <div>[VIDEO GOES HERE!]</div>
             <p>This was the video we showed at the event before doing a LIVE demonstration!</p>
             <h3>The Public Launch:</h3>
             <p>A week ago today on a Tuesday evening, Team Waterloop held an event at the University of Waterloo geared towards
