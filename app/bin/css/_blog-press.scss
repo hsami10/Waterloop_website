@@ -64,6 +64,12 @@ $bgTextColor: rgb(158, 158, 158);
         border-radius: 7px;
         box-shadow: 0 0 20px black;
     }
+
+    .col-md-6 {
+        p {
+            padding-top: 10%;
+        }
+    }
 }
 
 
