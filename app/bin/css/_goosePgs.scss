@@ -98,12 +98,12 @@ $g1MarginContent: 35px;
     img {
         margin: 15px auto $g1MarginContent;
         border-radius: 5px;
-        box-shadow: -5px 5px 15px black;
+        box-shadow: -5px 5px 10px #4e4e4e;
     }
 
     .col-md-push-6 {
         img {
-            box-shadow: 5px 5px 15px black;
+            box-shadow: 5px 5px 10px #4e4e4e;
         }
     }
 }
