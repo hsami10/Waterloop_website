@@ -3,6 +3,7 @@ import NavBar from './navbar.jsx';
 //BOOTSTRAP IMPORTS
 import { Grid, Row, Col } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
+import { AutoAffix } from 'react-overlays';
 
 let images = '/app/bin/Images/'; //all images stored here
 
@@ -16,7 +17,9 @@ export default class Blog extends React.Component {
                 </Row>
 
                 <Row id="bgTitleRow">
+                    <AutoAffix viewportOffsetTop={150} container={this}>
                     <h1 id="bgTitle">THE JOURNEY TO CALIFORNIA</h1>
+                    </AutoAffix>
                 </Row>
 
                 <Row id="bgContent">
