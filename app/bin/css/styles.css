@@ -335,7 +335,9 @@ you see classes below that have not been explicitly defined in the modules*/
     font-size: 15px;
     margin-bottom: 30px; }
   #bgContent img {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px black; }
 
 body {
   background: black; }
