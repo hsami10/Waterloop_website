@@ -212,9 +212,9 @@ you see classes below that have not been explicitly defined in the modules*/
   #g1Content img, #gXContent img, #g2Content img {
     margin: 15px auto 35px;
     border-radius: 5px;
-    box-shadow: -5px 5px 10px #4e4e4e; }
+    box-shadow: -10px 10px 10px #4e4e4e; }
   #g1Content .col-md-push-6 img, #gXContent .col-md-push-6 img, #g2Content .col-md-push-6 img {
-    box-shadow: 5px 5px 10px #4e4e4e; }
+    box-shadow: 10px 10px 10px #4e4e4e; }
 
 /* 
 'sp' stands for sponsors in identifiers below
