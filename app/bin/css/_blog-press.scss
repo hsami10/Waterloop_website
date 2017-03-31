@@ -65,19 +65,20 @@ $bgTextColor: rgb(158, 158, 158);
         //box-shadow: 0 0 20px 20px white inset;
     }
 
-    .col-md-6 {
+    .col-md-6 { //padding for text with the alternating side pic and text structure
         p {
             padding-top: 10%;
         }
     }
 }
 
+//each post is given certain styling.
 #bgContent > .col-md-8 > .row {
     margin-bottom: 60px;
     padding: 30px 50px;
     box-shadow: 8px 10px 20px 5px #575757;
 }
-
+//every other post is given different styling. these have class black.
 #bgContent > .col-md-8 > .black {
     margin-bottom: 60px;
     padding: 30px 50px;

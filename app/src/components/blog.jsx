@@ -23,8 +23,9 @@ export default class Blog extends React.Component {
                 <Row id="bgContent">
                     <Col md={8} mdOffset={2}>
                         <Post1 />
-                        <Post2 theme="black"/>
+                        <Post2 theme="black" />
                         <Post3 />
+                        <Post4 theme="black" />
                     </Col>
                 </Row>
 
@@ -33,11 +34,11 @@ export default class Blog extends React.Component {
     }
 }
 
-const Post1 = ({theme}) => {
+const Post1 = ({ theme }) => {
     return (
         <Row className={theme}>
             <h1>FULLY FUNDED!</h1>
-            <h2>NOV 30, 2016</h2>
+            <h2>NOVEMBER 30, 2016</h2>
             <p>A HUGE thank you to each and every backer from the Waterloop team! We are all so
                             thrilled at the outpouring of support. The kickstarter campaign successfully closed
                             with over 500 backers bringing in $43 000 in funding. Thank you friends! <br /><br />
@@ -49,11 +50,11 @@ const Post1 = ({theme}) => {
     );
 }
 
-const Post2 = ({theme}) => {
+const Post2 = ({ theme }) => {
     return (
         <Row className={theme}>
             <h1>HYPERLOOP SETS A NEW BAR FOR SUSTAINABILITY IN TRANSIT</h1>
-            <h2>NOV 9, 2016</h2>
+            <h2>NOVEMBER 9, 2016</h2>
             <p>A futuristic concept of how we move between city centers may be hurtling into our reality.
                             Since being proposed by Elon Musk in 2013, the Hyperloop concept has made significant strides
                             forward. With passenger capsules shooting through a near-vacuum tube approaching the speed
@@ -125,11 +126,11 @@ const Post2 = ({theme}) => {
     );
 }
 
-const Post3 = ({theme}) => {
+const Post3 = ({ theme }) => {
     return (
         <Row className={theme}>
             <h1>GOOSE I TAKES FLIGHT</h1>
-            <h2>NOV 8, 2016</h2>
+            <h2>NOVEMBER 8, 2016</h2>
             <p>Team Waterloop is thrilled to announce we have successfully demonstrated the world's first functional pneumatic
                 hyperloop levitation system!</p>
             <div>[VIDEO GOES HERE!]</div>
@@ -256,3 +257,74 @@ const Post3 = ({theme}) => {
     );
 }
 
+const Post4 = ({ theme }) => {
+    return (
+        <Row className={theme}>
+            <h1>BEHIND THE SCENES OF A KICKSTARTER CAMPAIGN</h1>
+            <h2>OCTOBER 28, 2016</h2>
+            <p>Waterloop has successfully funded our first two phases in the SpaceX Hyperloop competition, but
+                building one of the world’s first Hyperloop prototypes isn’t just exciting, fun, and incredibly
+                hard, it also will cost us around $36,000.
+                <br /><br />
+                We launched our Kickstarter campaign to help us reach our goal.</p>
+            <h3>The Process:</h3>
+            <p>
+                It took many rounds of edits. We started with a mock up of the site and pulled text from our Team
+                Vision document. From there, drafts were created that tailored the campaign to be Kickstarter specific.
+                <br /><br />
+                After the original draft, finalizing the rewards became a team wide brainstorm. Great ideas like
+                a meet and greet with GOOSE I and naming a subsystem came out of this.
+                <br /><br />
+                A few days before launching, we submitted the campaign to Kickstarter to review, where we were
+                noticed by the integrity team. They passed us onto a Kickstarter employee who took a special interest
+                in our cause. She was extremely helpful in creating a strategy for our page. With her advice, we altered
+                content so the eye catching images were at the top and text heavy sections were pushed lower. Key to our
+                success on Kickstarter is our video, which had over 17 000 views in the first 7 days of our campaign.
+            </p>
+
+            <Row>
+                <Col md={6}>
+                    <p>While we were hoping for the most successful launch possible, I don’t think anyone on the team
+                        expected to be 15 per cent funded in the first 12 hours, let alone over 50 per cent funded in
+                        48 hours after launch and fully funded within a week!
+                        <br /><br />
+                        Reaching this goal so quickly is proof that the transportation industry is ready for a change in
+                        the way people travel, and investing in technology is what will make that change happen.
+                    </p>
+                </Col>
+                <Col md={6}>
+                    <Image src={images + "blog-imgs/kickstarter.png"} responsive />
+                </Col>
+            </Row>
+            <p>
+                The momentum of the Kickstarter campaign has incited the passion of our team and the brilliant, wide ranging, 
+                and cohesive graphic set speak to the amount of detail that has been put into every stage of the design 
+                process. Team Waterloop has been working on this campaign with all of their free time, while also being 
+                full time co-op employees or full time students. The campaign has been a really wonderful collaboration 
+                between those on the marketing side and those involved in designing the technology. The cross-pollination 
+                of ideas between faculties has created an increased common knowledge through the whole team. As I have 
+                learned how much effort goes into designing a subsystem, our engineers are learning what it takes to sell an idea.
+            </p>
+            <Image src={images + "blog-imgs/kickstarter2.png"} responsive/>
+            <h3>The Results:</h3>
+            <p>On Oct. 24, we surpassed our goal of $20,000 at 212 backers. Thank you to all those that supported and 
+                donated to help our team succeed. Due to the overwhelming success, our team is introducing stretch goals 
+                for future enhancements of our pod for the second competition, to help send as much of the team to California 
+                as we can, and connect with supporters and sponsors through more events. We ask for your continued support 
+                on Kickstarter, through donating or sharing our campaign.</p>
+            <h3>Next Steps:</h3>
+            <p>
+                We will be hosting a Levitation Unveil Event on Nov. 1. The event is geared towards sharing our project with 
+                attendees ranging from the local Waterloo tech talent to various media outlets. The event will include keynote 
+                speakers, local KW startups, and a live test of our levitation system. Our first official keynote speaker is 
+                Tim Jackson, President and CEO of SHAD.
+                <br /><br />
+                RSVP to our Facebook event to keep up with more announcements and details to come.
+                <br /><br />
+                - Kelsey Dawson, Kickstarter Director of Team Waterloop
+            </p>
+        </Row>
+    );
+}
+
+const 
