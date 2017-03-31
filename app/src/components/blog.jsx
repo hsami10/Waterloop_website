@@ -26,6 +26,7 @@ export default class Blog extends React.Component {
                         <Post2 theme="black" />
                         <Post3 />
                         <Post4 theme="black" />
+                        <Post5 />
                     </Col>
                 </Row>
 
@@ -297,26 +298,26 @@ const Post4 = ({ theme }) => {
                 </Col>
             </Row>
             <p>
-                The momentum of the Kickstarter campaign has incited the passion of our team and the brilliant, wide ranging, 
-                and cohesive graphic set speak to the amount of detail that has been put into every stage of the design 
-                process. Team Waterloop has been working on this campaign with all of their free time, while also being 
-                full time co-op employees or full time students. The campaign has been a really wonderful collaboration 
-                between those on the marketing side and those involved in designing the technology. The cross-pollination 
-                of ideas between faculties has created an increased common knowledge through the whole team. As I have 
+                The momentum of the Kickstarter campaign has incited the passion of our team and the brilliant, wide ranging,
+                and cohesive graphic set speak to the amount of detail that has been put into every stage of the design
+                process. Team Waterloop has been working on this campaign with all of their free time, while also being
+                full time co-op employees or full time students. The campaign has been a really wonderful collaboration
+                between those on the marketing side and those involved in designing the technology. The cross-pollination
+                of ideas between faculties has created an increased common knowledge through the whole team. As I have
                 learned how much effort goes into designing a subsystem, our engineers are learning what it takes to sell an idea.
             </p>
-            <Image src={images + "blog-imgs/kickstarter2.png"} responsive/>
+            <Image src={images + "blog-imgs/kickstarter2.png"} responsive />
             <h3>The Results:</h3>
-            <p>On Oct. 24, we surpassed our goal of $20,000 at 212 backers. Thank you to all those that supported and 
-                donated to help our team succeed. Due to the overwhelming success, our team is introducing stretch goals 
-                for future enhancements of our pod for the second competition, to help send as much of the team to California 
-                as we can, and connect with supporters and sponsors through more events. We ask for your continued support 
+            <p>On Oct. 24, we surpassed our goal of $20,000 at 212 backers. Thank you to all those that supported and
+                donated to help our team succeed. Due to the overwhelming success, our team is introducing stretch goals
+                for future enhancements of our pod for the second competition, to help send as much of the team to California
+                as we can, and connect with supporters and sponsors through more events. We ask for your continued support
                 on Kickstarter, through donating or sharing our campaign.</p>
             <h3>Next Steps:</h3>
             <p>
-                We will be hosting a Levitation Unveil Event on Nov. 1. The event is geared towards sharing our project with 
-                attendees ranging from the local Waterloo tech talent to various media outlets. The event will include keynote 
-                speakers, local KW startups, and a live test of our levitation system. Our first official keynote speaker is 
+                We will be hosting a Levitation Unveil Event on Nov. 1. The event is geared towards sharing our project with
+                attendees ranging from the local Waterloo tech talent to various media outlets. The event will include keynote
+                speakers, local KW startups, and a live test of our levitation system. Our first official keynote speaker is
                 Tim Jackson, President and CEO of SHAD.
                 <br /><br />
                 RSVP to our Facebook event to keep up with more announcements and details to come.
@@ -327,4 +328,39 @@ const Post4 = ({ theme }) => {
     );
 }
 
-const 
+const Post5 = ({ theme }) => {
+    return (
+        <Row className={theme}>
+            <h1>NEW SCHOOL YEAR NEW TEAM</h1>
+            <h2>SEPTEMBER 30, 2016</h2>
+            <p>Qualifying to the second round of the competition, several members of our team travelled to Texas, in January
+                2016, to showcase our design to a panel of judges. With over 1200+ teams to begin with, only about six hundred
+                made it to this event. Waterloop landed a spot in the top twenty two teams of the overall thirty one qualifying
+                to the third round, being held in California. Since then, our team has received quite a bit of recognition,
+                for example, articles featured in Time, Huffpost Business, The Record, and ITBusiness. We are extremely thankful
+                for all supporters and sponsors that have contributed to this project. Success would not be possible without you.
+            </p>
+            <Image src={images + "blog-imgs/BOT2016.jpg"} responsive />
+            <div className="imageCaptions">Beginning of Term Meeting</div>
+            <p>
+                Each term our team is affected by Waterloo’s renowned co-op program. Students are placed in various cities, which
+                means having to recruit and mentor fresh minds. After a couple weeks of recruitment, the team is ready to take
+                on new adventures and the next four months leading to California. Currently our team consists of over a hundred
+                students, ranging from first to fifth year, and varying in disciplines. This 100+ team is broken into two main
+                teams, the technical and administrative  team. Both are working extremely hard to achieve success by supporting
+                when necessary and creating a positive atmosphere to work in. If it’s overcoming a pod design obstacle or deciding
+                which picture to post on social media, teamwork is always present.
+                <br /><br />
+                With the deadline extension from August 2016 to January 2017, our team is taking this opportunity to improve our
+                design and make it faster and more light weight.
+                <br /><br />
+                Looking ahead, we have a lot in store including testing and building our prototype, launching a Kickstarter
+                campaign and attending special events.
+                <br /><br />
+                Stay tuned for more updates and blogs coming soon!
+                <br /><br />
+                - Natalia Zigante, Social Media Lead
+            </p>
+        </Row>
+    );
+}
