@@ -252,7 +252,7 @@ const Post3 = ({ theme }) => {
                 <br /><br />
                 Until next time,
                 <br /><br />
-                - Team Waterloop
+                <span className="bgWriterCaption">- Team Waterloop</span>
             </p>
         </Row>
     );
@@ -322,7 +322,7 @@ const Post4 = ({ theme }) => {
                 <br /><br />
                 RSVP to our Facebook event to keep up with more announcements and details to come.
                 <br /><br />
-                - Kelsey Dawson, Kickstarter Director of Team Waterloop
+                <span className="bgWriterCaption">- Kelsey Dawson, Kickstarter Director of Team Waterloop</span>
             </p>
         </Row>
     );
@@ -359,16 +359,8 @@ const Post5 = ({ theme }) => {
                 <br /><br />
                 Stay tuned for more updates and blogs coming soon!
                 <br /><br />
-                - Natalia Zigante, Social Media Lead
+                <span className="bgWriterCaption">- Natalia Zigante, Social Media Lead</span>
             </p>
         </Row>
     );
 }
-
-
-
-
-
-
-
-//CHANGE IMAGE CAPTION STYLING

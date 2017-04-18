@@ -73,6 +73,13 @@ $bgTextColor: rgb(158, 158, 158);
         margin-bottom: 30px;
     }
 
+    .bgWriterCaption {
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+        font-stretch: condensed;
+    }
+
     .col-md-6 { //padding for text with the alternating side pic and text structure
         p {
             padding-top: 10%;
