@@ -324,7 +324,9 @@ you see classes below that have not been explicitly defined in the modules*/
     margin-top: 70px; }
   #bgContent h2 {
     font-style: italic;
-    margin-bottom: 35px; }
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #434343; }
   #bgContent h3 {
     font-weight: 500;
     margin-bottom: 30px; }
@@ -337,6 +339,10 @@ you see classes below that have not been explicitly defined in the modules*/
   #bgContent img {
     margin-bottom: 30px;
     border-radius: 7px; }
+  #bgContent .imageCaptions {
+    font-style: italic;
+    color: #9e9e9e;
+    margin-bottom: 30px; }
   #bgContent .col-md-6 p {
     padding-top: 10%; }
 

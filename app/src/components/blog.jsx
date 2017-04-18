@@ -331,7 +331,7 @@ const Post4 = ({ theme }) => {
 const Post5 = ({ theme }) => {
     return (
         <Row className={theme}>
-            <h1>NEW SCHOOL YEAR NEW TEAM</h1>
+            <h1>NEW SCHOOL YEAR, NEW TEAM</h1>
             <h2>SEPTEMBER 30, 2016</h2>
             <p>Qualifying to the second round of the competition, several members of our team travelled to Texas, in January
                 2016, to showcase our design to a panel of judges. With over 1200+ teams to begin with, only about six hundred
@@ -364,3 +364,11 @@ const Post5 = ({ theme }) => {
         </Row>
     );
 }
+
+
+
+
+
+
+
+//CHANGE IMAGE CAPTION STYLING

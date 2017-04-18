@@ -33,25 +33,27 @@ $bgTextColor: rgb(158, 158, 158);
     padding: 0 25px 25px;
     margin-bottom: 50px;
 
-    h1 {
+    h1 { //blog post title
         text-align: center;
         font-weight: 700;
         font-size: 40px;
         margin-top: 70px;
     }
 
-    h2 {
+    h2 { //date of blog post
         font-style: italic;
-        margin-bottom: 35px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        color: #434343;
     }
 
-    h3 {
+    h3 { //any sub-headings
         //font-size: 25px;
         font-weight: 500;
         margin-bottom: 30px;
     }
 
-    p {
+    p { //the blog text
         color: $bgTextColor;
         line-height: 27px;
         letter-spacing: 1.35px;
@@ -63,6 +65,12 @@ $bgTextColor: rgb(158, 158, 158);
         margin-bottom: 30px;
         border-radius: 7px;
         //box-shadow: 0 0 20px 20px white inset;
+    }
+
+    .imageCaptions {
+        font-style: italic;
+        color: $bgTextColor;
+        margin-bottom: 30px;
     }
 
     .col-md-6 { //padding for text with the alternating side pic and text structure
@@ -78,7 +86,7 @@ $bgTextColor: rgb(158, 158, 158);
     padding: 30px 50px;
     box-shadow: 8px 10px 20px 5px #575757;
 }
-//every other post is given different styling. these have class black.
+//every other post is given different styling. these have class black (different background/box-shadow, etc).
 #bgContent > .col-md-8 > .black {
     margin-bottom: 60px;
     padding: 30px 50px;
