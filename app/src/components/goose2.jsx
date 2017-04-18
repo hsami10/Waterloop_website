@@ -18,10 +18,7 @@ export default class Goose2 extends React.Component {
                 </Row>
                 <Row id="g2Content">
                     <Row>
-                        <p>Lorem ipsum dolor sit amet, mei dicunt recusabo temporibus ei, mel deseruisse sententiae
-                        incorrupte no. Ut nonumes deserunt nec, duo ea causae utroque partiendo, ne ius graece
-                        veritus. Quot unum efficiantur ex eum. Meis summo repudiare ius te, cu ignota doctus
-                        consetetur duo. Cu per labores eligendi neglegentur, eam in denique suscipit convenire.</p>
+                        <p style={{textAlign:"center"}}>This page will be coming soon!</p>
                     </Row>
                 </Row>
             </Grid>
