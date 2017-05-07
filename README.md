@@ -1,9 +1,9 @@
-# UW Hyperloop Website
+# UW Hyperloop Website #
 
-Home page:
+ ## Home page:
 ![Screenshot](https://github.com/hsami10/Waterloop_website/blob/master/app/bin/Images/website_scrnshots/home.png)
 
-Goose1 page:
+### Goose1 page:
 ![Screenshot](https://github.com/hsami10/Waterloop_website/blob/master/app/bin/Images/website_scrnshots/goose1.png)
 
 GooseX page:
